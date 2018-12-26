@@ -1,0 +1,1682 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+
+	<title>Terms of Use - Swappa</title>
+	<meta name="description" content="Swappa Terms of Use" />
+	<meta name="keywords" content="Swappa, mobile, used, phone, smartphone, iPhone, tablet, device, buy, sell, sale, games, playstation, xbox, nintendo" />
+	<!-- Meta -->
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"d7e1fe928c","agent":"","transactionName":"YlYGY0UHW0YFWkIKVlscIkJZBUFcC1cZB1NUXQNYGRBcUBNKGARcW1YWXlRIV1QXXAw3XFhDCFZDA2NcAU4YBFxB","applicationID":"2879586","errorBeacon":"bam.nr-data.net","applicationTime":33}</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#009a44">
+	<!-- Fav Icon -->
+	<link rel="shortcut icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" title="Favicon" />
+	<link rel="icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" />
+	<!-- Robots -->
+	
+	
+	
+	<meta name="Robots" content="index,follow" />
+	
+	
+	<!-- Misc -->
+	<meta name="google-site-verification" content="Av-kMi_k957YyPd7M0I_a2sn1GK4VyF7mEunnOiUacU" />
+	<link href="https://plus.google.com/+Swappa" rel="publisher" />
+	<!-- Open Graph -->
+	<meta property="og:app_id" content="128710807156604" />
+	<meta property="fb:app_id" content="128710807156604" />
+	<meta property="og:site_name" content="Swappa.com" />
+	<meta name="twitter:site" content="@swappa">
+	
+	<!-- Share -->
+	<meta property="og:url" content="https://swappa.com/terms" />
+	<meta name=”twitter:url” content="https://swappa.com/terms" />
+	
+	
+	
+
+	<!-- Stylesheets -->
+	
+	<!-- Google Fonts -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+	<!-- Bootstrap -->
+	<link href="https://static.swappa.com/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://static.swappa.com/static/css/nwo-theme.css?20180608" rel="stylesheet">
+	<link href="https://static.swappa.com/static/css/style4.css?20180608" rel="stylesheet">
+	
+
+	
+	
+	<script>
+		var swappa_settings = { APP_MODE: "pro" };
+		if (swappa_settings.APP_MODE != 'pro') {
+			console.log("APP_MODE: " + swappa_settings.APP_MODE);
+		}
+	</script>
+	
+
+	<!-- Javascripts -->
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://static.swappa.com/static/js/html5shiv.js"></script>
+		<script src="https://static.swappa.com/static/js/respond.min.js"></script>
+	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap.js"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap3-supplemental.js" type="text/javascript"></script>
+	<meta name="twitter:widgets:csp" content="on">
+
+	<script async src="https://static.swappa.com/static/js/search-base.js"></script>
+	<script async src="https://static.swappa.com/static/js/nav.js?20181120a"></script>
+
+	<!-- Search Typeahead -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
+	
+		<script async src="https://static.swappa.com/js/devices_typeahead.js?111218" type="text/javascript"></script>
+	
+	
+
+	
+	
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+	
+	<script type="text/javascript">
+		Vue.options.delimiters = ["[[", "]]"]
+	</script>
+	
+
+	
+	<!-- http://code.google.com/p/ie7-js/ -->
+	<!--[if lt IE 8]>
+	<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js">var IE7_PNG_SUFFIX = ".png";</script>
+	<![endif]-->
+	
+
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-567TNCG');</script>
+	<!-- End Google Tag Manager -->
+	
+
+	
+	
+	<!-- Google Optimize -->
+	<style>.async-hide { opacity: 0 !important} </style>
+	<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+	})(window,document.documentElement,'async-hide','dataLayer',4000,
+	{'GTM-N23SSBG':true});</script>
+
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-501243-21', 'auto');
+	ga('require', 'GTM-N23SSBG'); <!-- Google Optimize -->
+	
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	
+	
+
+	
+		
+			<!-- Facebook Pixel Code -->
+			<script>
+			!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+			fbq('init', '941700869275696');
+			fbq('track', "PageView");
+			</script>
+			<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=941700869275696&ev=PageView&noscript=1"
+			/></noscript>
+			<!-- End Facebook Pixel Code -->
+		
+	
+
+	
+	
+
+	
+	<script>
+	$(function() {
+
+		// tooltips
+		$(".has_tooltip").tooltip({
+			"container": "body"
+		});
+
+		// for messages
+		$(".messages .alert-error").addClass("alert-danger");
+
+		
+		$("input:not(.form-control)").each(function() {
+			if (jQuery.inArray($(this).attr("type"), ["file", "checkbox", "radio"]) == -1) {
+				$(this).addClass("form-control");
+			}
+		});
+
+	});
+
+	// GA events
+	$(function() {
+
+		// click to view a non-suggested listing
+		$(".top_nav_item > a").on("click", function(event) {
+			var text = $(this).text().trim();
+			ga("send", "event", "Site Nav", "Top Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+		$(".top_nav_item .dropdown-menu a").on("click", function(event) {
+			var top_text = $(this).parents(".top_nav_item").children("a").text().trim();
+			var drop_text = $(this).text().trim();
+			var text = top_text + " > " + drop_text;
+			ga("send", "event", "Site Nav", "Drop Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+
+	});
+	</script>
+	
+
+</head>
+
+<body>
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-567TNCG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+	
+	<script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+	<script type="text/javascript">
+	  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){
+	  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');
+
+	  tap('create', '5852-29635f');
+	  tap('detect');
+	</script>
+
+
+<div id="wrap">
+
+
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#mobile-navbar-collapse-content" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/" title="Swappa" style="">
+				<img src="https://static.swappa.com/static/images/logos/logo_swappa_nav.svg" alt="Swappa Logo" />
+			</a>
+		</div>
+		<!-- Search bar -->
+		<div class="navbar-header">
+			<form id="header_search_form" class="navbar-form navbar-search navbar-left" role="search" action="/search" method="get">
+				<div class="input-group">
+					<div class="input-group">
+						<input type="text" name="q" id="id_q" class="form-control search_input" placeholder="Search for phones, tablets, laptops and more..." data-autocomplete-legacy="true" autocomplete="off" />
+						<span class="input-group-btn">
+							<button class="btn btn-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</span>
+					</div>
+					
+					
+					<ul class="search_suggestions dropdown-menu">
+						<li class="disabled" style="font-weight: 500;">
+							<a tabindex="-1" href="#">Trending Searches</a>
+						</li>
+						<li class="divider" style="margin: 3px 10px;"></li>
+						
+							<li>
+								<a href="/buy/apple-iphone-x" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone X
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel-xl" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel XL
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-7-plus" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 7 Plus
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-6s" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 6S
+								</a>
+							</li>
+						
+							<li>
+								<a href="/laptops/macbooks" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-laptop" aria-hidden="true"></i>
+									&nbsp;
+									MacBooks
+								</a>
+							</li>
+						
+							<li>
+								<a href="/cameras" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-search" aria-hidden="true"></i>
+									&nbsp;
+									Cameras
+								</a>
+							</li>
+						
+							<li>
+								<a href="/home-tech" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-home" aria-hidden="true"></i>
+									&nbsp;
+									Home Tech
+								</a>
+							</li>
+						
+					</ul>
+					
+				</div>
+			</form>
+		</div>
+
+		<div id="navbar-collapse-content" class="collapse navbar-collapse">
+
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li id="top_nav_sell" class="top_nav_item">
+					<a href="/sell" title="Sell" class="btn btn-default" style="padding: 8px 10px;">
+						Sell on Swappa
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_login" class="">
+					<a href="/login?next=/terms" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="top_nav_register" class="">
+					<a href="/registration/register/?next=/terms" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_cart" class="top_nav_item">
+					<a href="/cart" class="btn btn-default" style="padding: 8px 10px;" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						<sup>0</sup>
+					</a>
+				</li>
+			
+			</ul>
+
+			<div class="clearfix"></div>
+			<hr class="hidden-xs" style="margin: 0px;" />
+
+            
+                
+			    <ul id="nav_cat_bar" class="nav navbar-nav hidden-xs" style="width: 100%;">
+				<li id="top_nav_iphones" class="nav_bar_item" data-menu-slug="iphones">
+					<a href="/buy/iphones">
+						<i class="fa fa-apple"></i> iPhones
+					</a>
+				</li>
+				<li id="top_nav_phones" class="nav_bar_item" data-menu-slug="phones">
+					<a href="/buy/phones">
+						<i class="fa fa-mobile"></i> Phones
+					</a>
+				</li>
+				<li id="top_nav_laptops" class="nav_bar_item" data-menu-slug="laptops">
+					<a href="/laptops">
+						<i class="fa fa-laptop"></i> Laptops
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item" data-menu-slug="cameras">
+					<a href="/cameras">
+						<i class="fa fa-camera"></i> Cameras
+					</a>
+				</li>
+				<li id="top_nav_gaming" class="nav_bar_item hidden-sm" data-menu-slug="gaming">
+					<a href="/gaming">
+						<i class="fa fa-gamepad"></i> Video Games
+					</a>
+				</li>
+				<li id="top_nav_tablets" class="nav_bar_item hidden-sm" data-menu-slug="tablets">
+					<a href="/buy/tablets">
+						<i class="fa fa-tablet"></i> Tablets
+					</a>
+				</li>
+				<li id="top_nav_wearables" class="nav_bar_item visible-lg" data-menu-slug="wearables">
+					<a href="/wearables">
+						<i class="fa fa-clock-o"></i> Watches
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item visible-lg" data-menu-slug="home_tech">
+					<a href="/home-tech">
+						<i class="fa fa-home"></i> Home Tech
+					</a>
+				</li>
+				<li id="top_nav_more" class="nav_bar_item dropdown">
+					<a href="/buy" class="dropdown-toggle" data-toggle="dropdown">
+						More <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="visible-sm" data-menu-slug="gaming">
+							<a href="/gaming">
+								<i class="fa fa-gamepad"></i> Video Games
+							</a>
+						</li>
+						<li class="visible-sm" data-menu-slug="tablets">
+							<a href="/buy/tablets">
+								<i class="fa fa-tablet"></i> Tablets
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="wearables">
+							<a href="/wearables">
+								<i class="fa fa-clock-o"></i> Watches + Wearable
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="home_tech">
+							<a href="/home-tech">
+								<i class="fa fa-home"></i> Home Tech
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+            
+
+		</div>
+
+		<!-- MOBILE NAV -->
+		<div id="mobile-navbar-collapse-content" class="collapse navbar-collapse">
+
+			<ul id="mob_nav" class="nav navbar-nav visible-xs">
+			
+				<li id="mob_nav_cart" class="top_nav_item">
+					<a href="/cart" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						Cart (#)
+					</a>
+				</li>
+			
+				<li id="mob_nav_buy">
+					<a href="/buy" title="Buy">
+						Buy <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_sell">
+					<a href="/sell" title="Sell">
+						Sell <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_help">
+					<a href="/help" title="Help">
+						Help
+					</a>
+				</li>
+			
+				<li id="mob_nav_login">
+					<a href="/login?next=/terms" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="mob_nav_register">
+					<a href="/registration/register/?next=/terms" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			</ul>
+
+		</div>
+
+	</div>
+</header>
+
+
+
+
+<div class="container">
+
+	
+	<div class="messages">
+	
+	</div>
+	
+
+	<section id="section_usp_bar">
+	
+	
+	</section>
+
+	
+	<section id="breadcrumbs">
+	
+	<div>
+		<ul class="breadcrumb">
+			<li>
+				<a href="/">Swappa</a>
+			</li>
+			<li>
+				<a href="/about">About</a>
+			</li>
+			<li class="active">Terms of Use</li>
+		</ul>
+	</div>
+
+	</section>
+	
+
+	
+	<section id="section_top">
+	</section>
+	
+
+	
+	<section id="section_billboard">
+	</section>
+	
+
+	
+	<section id="section_main">
+
+		<div class="row">
+			<div class="col-md-8" role="main">
+				<a id="searchable"></a>
+				
+	
+	<h1>Terms of Use</h1>
+	
+	<p>
+		To use the Swappa site and service you must abide by these terms and conditions.
+	</p>
+	
+	<h2>(Brief Summary)</h2>
+	
+	<h3>Services & Fees</h3>
+	<ul>
+		<li>
+			Swappa is a facilitator of sales. We are not a retailer, re-seller, or middleman.
+		</li>
+		<li>
+			For facilitating the sale and providing other services, we take a small fee.
+		</li>
+	</ul>
+	
+	<h3>Buying & Selling</h3>
+	<ul>
+		<li>
+			We have safeguards in place, but Swappa is not liable for seller actions.
+		</li>
+		<li>
+			We will do our best to prevent fraud and help you resolve problems that do arise.
+		</li>
+	</ul>
+	
+	<h3>Privacy</h3>
+	<ul>
+		<li>
+			We keep your private information private. We do not steal or sell such information.
+		</li>
+		<li>
+			Buyers and sellers have more information available about each other.
+		</li>
+	</ul>
+	
+	<h3>Content</h3>
+	<ul>
+		<li>
+			This site allows the creation of listings, comments and other content for all the world to see. 
+		</li>
+		<li>
+			We are not liable for what our users post, but we will use our best efforts to moderate it.
+		</li>
+	</ul>
+	
+
+				<a id="searchable_end"></a>
+			</div>
+
+			<div class="col-md-4">
+				
+					
+<div class="panel panel-success" id="side_nav_links">
+	<div class="panel-heading">
+		Swappa - Buy and Sell Mobile
+	</div>
+	<div class="list-group">
+		<a id="side_nav_about" href="/about" title="About Swappa" class="list-group-item">About Swappa</a>
+		<a id="side_nav_buy" href="/buy" title="Buy with Swappa" class="list-group-item">Buy with Swappa</a>
+		<a id="side_nav_sell" href="/sell" title="Sell with Swappa" class="list-group-item">Sell with Swappa</a>
+		<a id="side_nav_vs" href="/vs/ebay" title="Swappa vs. eBay" class="list-group-item">Swappa vs. eBay</a>
+		<a id="side_nav_faq" href="/faq" title="Swappa FAQ" class="list-group-item">FAQ: Questions & Answers</a>
+		<a id="side_nav_policies" href="/policies" title="Swappa Market Policies" class="list-group-item">Market Policies</a>
+		<a id="side_nav_contact" href="/contact" title="Contact Swappa" class="list-group-item">Contact</a>
+		<a id="side_nav_help" href="/help" title="Swappa Help" class="list-group-item">Help / Support</a>
+	</div>
+</div>
+
+				
+			</div>
+		</div>
+
+	</section>
+	
+
+	
+<section id="section_more">
+
+	<hr/>
+
+	﻿
+
+<div>
+
+<p align="center" style="margin-bottom:10.0pt;text-align:center"><b><span style="font-family:&quot;Times New Roman&quot;;font-variant:small-caps;color:black">TERMS OF USE</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p align="center" style="margin-bottom:10.0pt;text-align:center"><span style="font-family:&quot;Times New Roman&quot;;color:black">(Last updated <b>September 13, 2018</b>)</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">To use the Swappa Site and Swappa Services, you
+must abide by these Terms of Use as well as any other written agreement(s)
+between Swappa, LLC and you.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa, LLC reserves the right to change these
+Terms of Use from time to time with or without notice to you.  You
+acknowledge and agree that it is your responsibility to periodically review the
+Site and these Terms of Use.  Your continued use of the Site and Swappa
+Services, as defined in these Terms of Use, after any such modifications will
+constitute acknowledgment and acceptance of the modified Terms of Use.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">BY USING THE SITE AND SWAPPA SERVICES, YOU AGREE
+TO BE BOUND BY THESE TERMS OF USE.  IF YOU DO NOT WISH TO BE BOUND BY
+THESE TERMS OF USE, PLEASE EXIT THE SITE AND DISCONTINUE USE OF THE SITE AND
+SWAPPA SERVICES.  YOUR SOLE REMEDY AGAINST SWAPPA, LLC AND ITS PARENT
+COMPANIES, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, AGENTS, AND EMPLOYEES
+FOR DISSATISFACTION WITH THE SITE, SWAPPA SERVICES, PRODUCTS OR OFFERINGS
+AVAILABLE ON THE SITE, OR THESE TERMS OF USE, IS TO CEASE USING THE SITE,
+SWAPPA SERVICES, AND/OR THOSE PARTICULAR PRODUCTS OR OFFERINGS WITH WHICH YOU
+ARE DISSATISFIED.  THESE TERMS ARE EFFECTIVE AND BINDING UPON YOU ONCE YOU
+USE THE SITE OR ANY SWAPPA SERVICES.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">I.<span>          </span>Swappa
+Terms of Use</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">PLEASE READ THESE TERMS OF USE
+CAREFULLY BEFORE USING THE WEBSITE AND SERVICES OFFERED BY SWAPPA, LLC
+(&quot;SWAPPA&quot;). THIS AGREEMENT SETS FORTH THE LEGALLY BINDING TERMS AND
+CONDITIONS FOR YOUR USE OF THE WEBSITE AT <a href="https://swappa.com" target="_blank">https://swappa.com</a> (THE
+&quot;SITE&quot;) AND ALL SERVICES PROVIDED BY SWAPPA, LLC ON THE SITE<i>.</i></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa and/or its affiliates provide website features and other
+products and services to you when you visit or shop at <a href="https://swappa.com" target="_blank">https://swappa.com</a>, use
+Swappa products or services, use Swappa applications for mobile, or use
+software provided by Swappa in connection with any of the foregoing
+(collectively, ÒSwappa ServicesÓ).  Swappa provides the Swappa Services
+subject to the following terms and conditions.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">By using the Swappa Services in any manner, including but not
+limited to visiting or browsing the Site, you (the &quot;user&quot; or
+&quot;you&quot;) agree to be bound by this Agreement, including those
+additional terms and conditions and policies referenced herein and/or available
+by hyperlink. This Agreement applies to all users of Swappa Services, including
+without limitation users who are vendors, customers, merchants, contributors of
+content, information and other materials or services on the Site.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">If you have any questions, please refer to the Help section of the
+Site.  <b>By using Swappa Services and/or the Site, you agree to these
+conditions and Terms of Use and agree to be bound by this Agreement.</b></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">A.<span>        </span>The Site Is a Venue</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">You agree that the Site is
+a venue.  As such, Swappa is not responsible or liable for any content
+(e.g., data, text, information, usernames, graphics, images, photographs,
+profiles, audio, video, items, and links) posted by you, other users, or
+outside parties on the Site. You use the Site and any other Swappa Services at
+your own risk.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">The Site is a venue to
+allow users who comply with Swappa&#39;s policies to offer, sell and buy certain
+electronic goods within a fixed-price format. Swappa is not directly involved
+in the transaction between buyers and sellers. As a result, Swappa has no
+control over the quality, safety, morality or legality of any aspect of the
+items listed, the truth or accuracy of the listings, the ability of sellers to
+sell items or the ability of buyers to pay for items. Swappa does not
+pre-screen users or the content or information provided by users. Swappa cannot
+ensure that a buyer or seller will actually complete a transaction.
+ Swappa holds no right, title, or interest in any products or <span>items listed on the Site and does</span> not transfer legal
+ownership of items from the seller to the buyer.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa does not verify and
+cannot guarantee the true identity, age, and nationality of a user. Swappa
+encourages each user to communicate directly with potential transaction
+partners through the tools available on the Site.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">B.<span>        </span>Membership Eligibility</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-left:1.25in;text-align:justify;text-justify:inter-ideograph;line-height:200%;vertical-align:baseline"><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>1.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span></span></span><span style="font-family:&quot;Times New Roman&quot;;color:black">Age</span></p>
+
+<p style="margin-left:1.75in;text-align:justify;text-justify:inter-ideograph;vertical-align:baseline"><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>a.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span></span></span><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa Services are available only to, and may only be used by,
+individuals who are 18 years or older who can form legally binding contracts
+under applicable law. By using the Site or any Swappa Services, you represent
+and warrant that you are at least 18 years old and that all registration
+information you submit is accurate and truthful. Swappa may, in its sole
+discretion, refuse to offer access to or use of the Site or any Swappa Services
+to any person or entity.  Moreover, Swappa may change its user eligibility
+criteria at any time. This provision is void where prohibited by law, and the
+right to access the Site is revoked in such jurisdictions.</span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:1.75in;text-align:justify;text-justify:inter-ideograph;vertical-align:baseline"><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>b.<span style="font:7.0pt &quot;Times New Roman&quot;">     </span></span></span><span style="font-family:&quot;Times New Roman&quot;;color:black">Individuals under the age of 18 must at all times use the Site or
+any other Swappa Services only in conjunction with and under the supervision of
+a parent or legal guardian who is at least 18 years of age. In all cases, the
+adult is the user and is responsible for any and all activities.</span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">C.<span>        </span>Compliance</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">You agree to abide by
+Swappa&#39;s policies as stated in this Agreement and the Swappa policy documents
+listed below (if applicable to your activities on or use of the Site), as well
+as all other operating rules, policies and procedures that may be published
+from time to time on the Site by Swappa, each of which is incorporated herein
+by reference and each of which may be updated by Swappa from time to time
+without notice to you.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:1.5in;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span><u>Compliance
+with Local Laws</u>.  You agree to comply with all local laws regarding
+online conduct and acceptable content.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:1.5in;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span><u>Compliance
+with Tax Laws</u>.  You are responsible for all applicable taxes.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">D.<span>        </span>Password</span></b><span style="font-family:&quot;Times New Roman&quot;;color:black">.  Keep your password secure. You are fully responsible for
+all activity, liability and damage resulting from your failure to maintain
+password confidentiality. You agree to immediately notify Swappa of any
+unauthorized use of your password or any breach of security. <b>You also agree
+that Swappa cannot and will not be liable for any loss or damage arising from
+your failure to keep your password secure</b>. You agree not to provide your
+username and password information to any other party other than Swappa without
+Swappa&#39;s express written permission.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">E.<span>         </span>Account Information</span></b><span style="font-family:&quot;Times New Roman&quot;;color:black">.  You must keep your account information up-to-date and
+accurate at all times, including a valid email address. To sell items on the
+Site, you must provide and maintain valid payment information such as a valid
+PayPal account.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">F.<span>         </span>Account Transfer</span></b><span style="font-family:&quot;Times New Roman&quot;;color:black">.  You may not transfer or sell your Swappa account and User
+ID to any other party. If you are registering as a business entity, you
+personally guarantee that you have the authority to bind the entity to this
+Agreement.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">G.<span>        </span>Right to Refuse Service</span></b><span style="font-family:&quot;Times New Roman&quot;;color:black">.  Swappa may refuse service to or for any user, for any
+reason, at any time. Swappa reserves the right, in Swappa's sole discretion, to
+temporarily or indefinitely suspended users of the Site or other Swappa
+Services. Swappa reserves the right, in Swappa&#39;s sole discretion, to cancel
+unconfirmed or inactive accounts.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><b><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>            </span>H.<span>        </span>Privacy
+Policy</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt"><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>            </span>Please
+review our Privacy Policy at </span><u><span style="font-family:&quot;Times New Roman&quot;;color:blue"><a href="https://swappa.com/privacy" target="_blank">https://swappa.com/privacy</a></span></u><span style="font-family:&quot;Times New Roman&quot;;color:black">, which governs your use of Swappa Services, to understand our practices.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">I.<span>          </span>Fees Policy</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Joining and creating a
+listing on the Site is free. Swappa may charge fees for listing an item for
+sale, as well as a fee for the sale price when the item sells. When you list an
+item, you have an opportunity to review and accept the fees that you will be
+charged. Swappa&#39;s Fees Policy (available online at </span><span style="font-size:10.0pt;font-family:Times"><a href="https://swappa.com/policies" target="_blank"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;;color:#1155cc">https://swappa.com/policies</span></a></span><span><span style="font-family:&quot;Times New Roman&quot;;color:black"> )</span></span><span style="font-family:&quot;Times New Roman&quot;;color:black">, which is subject to
+change at any time without notice to you, is incorporated into this Agreement
+by reference. Changes to the Fees Policy and the fees for Swappa&#39;s services are
+effective upon being published on the Site. However, Swappa may choose to
+temporarily change the Fees Policy and the fees for Swappa&#39;s services for
+promotional events (e.g., free listing days).  Such changes are effective
+when Swappa posts the temporary promotional event on the Site. Swappa may, at
+Swappa&#39;s sole discretion, change some or all of Swappa&#39;s services at any time.
+In the event Swappa introduces a new service, the fees for that service are
+effective at the launch of the service. Unless otherwise stated, all fees are
+quoted in US Dollars (USD).</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">You are responsible for
+paying all fees and applicable taxes associated with using the Site or any
+other Swappa Services</span></b><span style="font-family:&quot;Times New Roman&quot;;color:black">.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">J.<span>         </span>Marketplace
+Operation</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">In addition to these Terms
+of Use, you agree to the procedures and guidelines contained Swappa's Market
+Policies (available online at </span></b><span style="font-size:10.0pt;font-family:Times"><a href="https://swappa.com/policies" target="_blank"><b><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;;color:#1155cc">https://swappa.com/policies</span></b></a></span><b><span style="font-family:&quot;Times New Roman&quot;;color:black">),<WBR>which are incorporated by reference into and made part of, these
+Terms of Use.  Like these Terms of Use, Swappa may change Swappa's Market
+Policies without notice to you, and any such changes will be effective
+immediately upon posting, regardless of whether or not you received notice of
+such change(s). You should refer regularly to Swappa's Market Policies to
+understand the current procedures and guidelines.  In the event there is a
+conflict between these Terms of Use and Swappa's Market Policies, Swappa's
+Market Policies shall supersede the Terms of Use and control use of the Site
+and the Marketplace.</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span><u>Product
+Listings</u>.  By listing an item on the Site, you warrant that you and
+all aspects of the item comply with Swappa&#39;s published policies. You also
+warrant that you may legally sell the item. You must accurately describe your
+item and all terms of sale. You are responsible for ensuring accuracy of all
+product listings, including but not limited to, pricing, model numbers,
+descriptions, images, available quantities, and item condition. Each listing
+must accurately and completely describe the item/items for sale in that
+listing. Each unique item must have its own listing.  <b>You are
+responsible for setting the listing price of each item to <u>include</u>
+shipping costs in accordance with Swappa's Sale Fulfillment policies.
+ Swappa may add a fee to any listing price for selling services.</b></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Your listings may only include text descriptions, graphics,
+pictures and other content relevant to the sale of that item.  Swappa may
+reject and remove from the Site any text descriptions, graphics, pictures and
+other content posted by any user of the Site or other Swappa Services at its
+discretion.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span><u>Rejection</u></span></span><u><span style="font-family:&quot;Times New Roman&quot;;color:black"> or Removal of Listings</span></u><span style="font-family:&quot;Times New Roman&quot;;color:black">.  Swappa may, in its
+sole discretion and determination, reject or remove product listings without
+notice to the Seller.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">3.<span>         </span><u>No
+Endorsement by Swappa</u>.  Swappa neither endorses nor assumes any
+liability for any material uploaded or submitted by users on any part of the
+Site.  Swappa and its agents reserve the right to remove any and all postings
+or listings that Swappa determines, in its sole discretion, do not comply with
+these Terms of Use and any other rules of user conduct for the Site, or are
+otherwise harmful, objectionable or inaccurate.  <b>You expressly
+understand and agree that Swappa is not responsible for any delay in removing
+such postings</b>.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">4.<span>         </span><u>Return
+Policies</u>.  All sellers are urged to outline return policies for their
+listing. Sellers must create reasonable policies in good faith and must abide
+by such policies. All return policies must comply with Swappa&#39;s site-wide
+policies. Sellers are responsible for enforcing their own reasonable policies.
+Swappa reserves the right to request that a seller modify a listing return
+policy.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">5.<span>         </span><u>Binding
+Sale</u>.  All sales are binding. The seller is obligated to ship the
+order or otherwise complete the transaction with the buyer in a prompt manner.
+A sale may be voided under circumstances defined in Swappa's Market Policies
+relating to Sale Voidance.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">6.<span>         </span><u>Transaction
+Payments</u>.  Marketplace payments are to be made directly by the Buyer
+to the Seller via PayPal or another third-party payment provider as mutually
+agreed upon by the Buyer and Seller.  Seller is solely responsible for
+ensuring proper payment is received from Buyer, including any necessary taxes
+and shipping expenses, before fulfilling the sale.  Swappa shall not be
+liable for any consequential, incidental, special, punitive or indirect damages
+incurred by Buyer or Seller for insufficient payments or Seller's failure to
+ensure that proper payment was received from Buyer.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span><span style="font-family:&quot;Times New Roman&quot;;color:black">7.<span>         </span><u>Buyer</u></span></span><u><span style="font-family:&quot;Times New Roman&quot;;color:black"> and Seller Communication</span></u><span style="font-family:&quot;Times New Roman&quot;;color:black">.  Seller is
+responsible for providing support for any sale-related issues beyond
+functionality of the Site or the Swappa Marketplace. As a condition of using
+the Site and the Swappa Marketplace, Sellers agree to use his/her/its best
+efforts to offer support and assistance in the resolution of Buyers' concerns
+and disputes.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Communication between Buyer and Seller shall be conducted as
+outlined in Swappa's Market Policies relating to Buyer and Seller
+Communication.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">8.<span>         </span><u>Sale
+Fulfillment</u>. <span>         </span>The
+Seller is obligated to fulfill the order or otherwise complete the transaction
+with the Buyer in a prompt manner in accordance with Swappa's Market Policies
+relating to Sale Fulfillment.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>            </span><b>K.<span>        </span>Third-Party
+Sites and Information.</b>  </span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">The Site may redirect or
+link to other websites on the Internet, or may otherwise include references to
+information, products or services made available by unaffiliated third parties.
+ While Swappa makes every effort to work with trusted, reputable
+providers, from time to time such sites may contain information, material or
+policies that some may find inappropriate or personally objectionable.
+ You understand and agree that Swappa is not responsible for the accuracy,
+completeness, decency or legality of content hosted by third party websites,
+nor is Swappa responsible for errors or omissions in any references made on
+those websites.  The inclusion of such a link or reference is provided
+merely as a convenience and does not imply endorsement of, or association with
+the Site or party by Swappa, or any warranty of any kind, either express or
+implied.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">L.<span>         </span>Prohibited,
+Questionable and Infringing Items and Activities</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">You are solely responsible
+for your conduct and activities on the Site and/or conduct or activities
+relating to or regarding any Swappa Services.  You are also solely
+responsible for any and all data, text, information, usernames, graphics,
+images, photographs, profiles, audio, video, items, and links (together,
+&quot;Content&quot;) that you submit, post, and display on <span>the
+ Site</span>.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">M.<span>       </span>Restricted Activities.</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Your Content and your use of the Site or any other Swappa Services
+shall not:</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span>Be
+false, inaccurate or misleading<span>;</span></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span>Be
+fraudulent or involve the sale of illegal, counterfeit or stolen items;</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">3.<span>         </span>Infringe
+upon any third-party&#39;s copyright, patent, trademark, trade secret or other
+proprietary or intellectual property rights or rights of publicity or privacy (<i>see
+also</i> Swappa&#39;s Copyright and Intellectual Property Policy);</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">4.<span>         </span>Violate
+this Agreement, any site policy or community guidelines, or any applicable law,
+statute, ordinance or regulation (including, but not limited to, those
+governing export control, consumer protection, unfair competition,
+anti-discrimination or false advertising)<span>;</span></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">5.<span>         </span>Contain
+items that have been identified by the U.S. Consumer Products Safety Commission
+(ÒCPSCÓ) as hazardous to consumers and therefore subject to a recall<span>;</span></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">6.<span>         </span>Be
+defamatory, trade libelous, unlawfully threatening, unlawfully harassing,
+impersonate or intimidate any person (including Swappa staff or other users),
+or falsely state or otherwise misrepresent your affiliation with any person,
+through, for example, the use of similar email address, nicknames, or creation
+of false account(s) or any other method or device;</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">7.<span>         </span>Be
+obscene or contain child pornography;</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">8.<span>         </span>Contain
+or transmit any code of a destructive nature that may damage, detrimentally
+interfere with, surreptitiously intercept or expropriate any system, data or
+personal information;</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">9.<span>         </span>Host
+images not part of a listing;</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">10.<span>       </span>Modify,
+adapt or hack the Site or modify another website so as to falsely imply that it
+is associated with Swappa;</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">11.<span>       </span>Appear
+to create liability for Swappa or cause Swappa to lose (in whole or in part)
+the services of Swappa&#39;s ISPs or other suppliers<span>;</span></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">12.<span>       </span>Link
+directly or indirectly, reference or contain descriptions of goods or services
+that are prohibited under this Agreement, the Privacy Policy, or other policy
+documents as posted on Swappa.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Furthermore, you may not
+list any item on the Site (or consummate any transaction that was initiated
+using Swappa Services) that, by paying to Swappa the listing fee or the final
+value fee, could cause Swappa to violate any applicable law, statute, ordinance
+or regulation, or that violates the Terms of Use.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">N.<span>        </span>Content</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span><u>User's
+Grant of License In Favor of Swappa</u>.  Swappa does not claim ownership
+rights in your Content. You grant Swappa a license to use any information or
+Content you supply, but <b>you agree that Swappa is not violating any rights
+you might have in any information or Content you supply to Swappa</b>. You
+grant Swappa a non-exclusive, worldwide, perpetual, irrevocable, royalty-free,
+sublicensable (through multiple tiers) right to exercise the copyright,
+publicity, and database rights you have in the Content, in any media now known
+or not currently known, with respect to your Content. You agree to allow Swappa
+to store or re-format your Content on the Site and display your Content on the
+Site in any way Swappa chooses. Swappa will only use personal information in
+accordance with Swappa&#39;s Privacy Policy.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">As part of a transaction, you may obtain personal information,
+including email address and shipping information, from another Swappa user.
+Without obtaining prior permission from the other user, this personal information
+shall only be used for that transaction or for Swappa-related communications.
+Swappa has not granted you a license to use the information for unsolicited
+commercial messages. Without limiting the foregoing, without express consent
+from the user, you are not licensed to add any Swappa user to your email or
+physical mail list. For more information, see Swappa&#39;s Privacy Policy. </span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span><u>Swappa's
+Grant of License in Favor of User</u>. Subject to your compliance with the
+Terms and Conditions, this Agreement, and your payment of any applicable fees,
+Swappa or its content providers grant you a limited, non-exclusive,
+non-transferable, non-sublicensable license to access and make personal and
+non-commercial use of the Site. This license does not include any resale or
+commercial use of any Swappa Service, or its contents; any collection and use
+of any product listings, descriptions, or prices; any derivative use of any
+Swappa Service or its contents; any downloading or copying of account
+information for the benefit of another user, seller, buyer or merchant; or any
+use of data mining, robots, or similar data gathering and extraction tools. All
+rights not expressly granted to you in this Agreement are reserved and retained
+by Swappa or its licensors, suppliers, publishers, rightsholders, or other
+content providers. No Swappa Service, nor any part of any Swappa Service, may
+be reproduced, duplicated, copied, sold, resold, visited, or otherwise
+exploited for any commercial purpose without express written consent of Swappa.
+You may not frame or utilize framing techniques to enclose any trademark, logo,
+or other proprietary information (including images, text, page layout, or form)
+of Swappa without express written consent. You may not use any <span>meta</span> tags or any other &quot;hidden text&quot; utilizing
+Swappa's name or trademarks without the express written consent of Swappa. You
+may not misuse the Site or any Swappa Services. You may use the Site and any
+other Swappa Services only as permitted by law. The licenses granted by Swappa
+terminate if you do not comply with this Agreement.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">3.<span>         </span><u>Re-Posting
+Content</u>.  By posting Content on the Site, it is possible for an
+outside website or a third party to re-post that Content. You agree to
+indemnify, defend, and hold Swappa harmless for any dispute concerning this
+use. If you choose to display your own Swappa-hosted image on another website,
+the image must provide a link back to its listing page on Swappa.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">4.<span>         </span><u>Idea
+Submissions</u>.  Swappa considers any unsolicited suggestions, ideas,
+proposals or other material submitted to it by users via the Site or otherwise
+(other than the Content and the tangible items sold on the Site by users)
+(collectively, the &quot;Material&quot;) to be non-confidential and
+non-proprietary, and Swappa shall not be liable for the disclosure or use of
+such Material. If, at Swappa&#39;s request, any member sends Material to improve
+the site (for example through the Forums or to customer support), Swappa will
+also consider that Material to be non-confidential and non-proprietary, and
+Swappa will not be liable for use or disclosure of the Material. Any
+communication by you to Swappa is subject to this Agreement. You agree to
+grant, and hereby do grant, to Swappa, under all of your rights in the
+Material, a worldwide, non-exclusive, perpetual, irrevocable, royalty-free,
+fully-paid, sublicensable and transferable right and license to incorporate,
+use, publish and exploit such Material for any purpose whatsoever, commercial
+or otherwise, including but not limited to incorporating it in the API, documentation,
+or any product or service, without compensation or accounting to you and
+without further recourse by you.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">O.<span>        </span>Information Control</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span><u>No
+Control of Content by Swappa</u>.  Swappa does not control the Content
+provided by users that is made available on Swappa. You may find some Content
+to be offensive, harmful, inaccurate, or deceptive. There are also risks of
+dealing with underage persons or people acting under false pretense.  By
+using the Site or any Swappa Service, you assume all risk.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span><u>International
+Transactions</u>.  There may be risks dealing with international trade and
+foreign nationals. By using the Site or any Swappa Service, you agree to accept
+such risks and <b>you expressly agree that Swappa (and Swappa&#39;s officers,
+directors, agents, subsidiaries, joint ventures and employees) is not
+responsible for acts or omissions of users on the Site</b>. Please use caution,
+common sense, and practice safe buying and selling when using the Site.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">3.<span>         </span><u>Other
+Resources</u>.  Swappa is not responsible for the availability of outside
+websites or resources linked to or referenced on the Site. Swappa does not
+endorse and is not responsible or liable for any content, advertising,
+products, or other materials on or available from such websites or resources. <b>You
+agree that Swappa shall not be responsible or liable, directly or indirectly,
+for any damage or loss caused or alleged to be caused by or in connection with
+the use of or reliance on any such content, goods or services available on or
+through any such websites or resources</b>.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">P.<span>         </span>Resolution of
+Disputes and Release</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span><u>Disputes
+with Swappa</u>.  In the event a dispute arises between you and Swappa,
+please contact Swappa.  Any dispute arising from or relating to the
+subject matter of this Agreement shall be litigated in the Circuit Court of
+Platte County, Missouri or in the U.S. Distrct Court for the Western District
+of Missouri.  <span>The Site (excluding any third-party sites)
+is controlled by Swappa from its offices in Missouri</span>, and the statutes
+and laws of the State of Missouri shall be controlling, without regard to the
+conflicts of laws principles thereof.  You agree and hereby submit to the
+exclusive personal jurisdiction and venue of the Circuit Court of Platte
+County, Missouri or the U.S. District Court for the Western District of
+Missouri with respect to any disputes arising from or relating to the subject
+matter of this Agreement and these Terms of Use.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Use of the Site is not authorized in any jurisdiction that does
+not give effect to all provisions of the Agreement, including without
+limitation, this section. <b>You and Swappa agree that any cause of action
+arising out of or related to the Site (including, but not limited to, any
+services provided or made available therein) or this Agreement must commence
+within one (1) year after the cause of action arose; otherwise, such cause of
+action is permanently barred</b>.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span><u>Disputes
+with Users or Third Parties</u>.  In the event a dispute arises between
+you and another user or a third party, Swappa has no obligation to resolve or
+to attempt to resolve such dispute. <b>You release Swappa and its officers,
+directors, agents, subsidiaries, joint ventures and employees from any and all
+claims, demands and damages (actual and/or consequential) of every kind and
+nature, known and unknown, suspected and unsuspected, disclosed and
+undisclosed, arising out of or in any way connected with any dispute between
+you and another user or a third party</b>.  Swappa encourages users to
+report user-to-user disputes to your local law enforcement, postmaster general,
+or a certified mediation or arbitration entity, as applicable.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa may, for the benefit of users, try to help users resolve
+disputes. However, Swappa does so in its sole discretion, and Swappa has no
+obligation to resolve disputes between users or between users and outside
+parties. To the extent Swappa attempts to resolve a dispute, Swappa will do so
+in good faith based solely on Swappa&#39;s policies. Swappa will not make judgments
+regarding legal issues or claims.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">Q.<span>        </span>Swappa&#39;s Intellectual
+Property</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa, and other Swappa
+graphics, logos, designs, page headers, button icons, scripts, and service
+names are registered trademarks, trademarks or trade dress of Swappa, LLC in
+the U.S. and/or other countries. Swappa&#39;s trademarks and trade dress may not be
+used, including as part of trademarks and/or as part of domain names or email
+addresses, in connection with any product or service in any manner that is
+likely to cause confusion.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">R.<span>        </span>Access and Interference</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa may contain robot
+exclusion headers that contain internal rules for software usage. Much of the
+information on the Site is updated on a real-time basis and is proprietary or is
+licensed to Swappa by Swappa&#39;s users or third parties. You agree that you will
+not use any robot, spider, scraper or other automated means to access the Site
+for any purpose whatsoever, except to the extent expressly permitted by and in
+compliance with Swappa&#39;s API Terms of Use or otherwise without Swappa&#39;s prior
+express written permission. Additionally, you agree that you will not:</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span>Take
+any action that imposes, or may impose, in Swappa&#39;s sole discretion, an
+unreasonable or disproportionately large load on Swappa&#39;s infrastructure<span>;</span></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span>Copy,
+reproduce, modify, create derivative works from, distribute or publicly display
+any user Content (except for your Content) from the Site except to the extent
+expressly permitted by and in compliance with Swappa&#39;s API Terms of Use or
+otherwise without the prior express written permission of Swappa and the
+appropriate third party, as applicable;</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">3.<span>         </span>Interfere
+or attempt to interfere with the proper working of the Site or any activities
+conducted on the Site; or</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">4. Bypass Swappa&#39;s robot exclusion headers or other measures
+Swappa may use to prevent or restrict access to the Site</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">S.<span>        </span>Breach</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Without limiting any other
+remedies, Swappa may, without notice, and without refunding any fees, delay or
+immediately remove Content, warn Swappa&#39;s community of a user&#39;s actions, issue
+a warning to a user, temporarily suspend a user, temporarily or indefinitely
+suspend a user&#39;s account privileges, terminate a user&#39;s account, prohibit
+access to the Site, and take technical and legal steps to keep a user off the
+Site and refuse to provide services to a user if any of the following apply:</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span>Swappa
+suspects (by information, investigation, conviction, settlement, insurance or
+escrow investigation, or otherwise) a user has breached this Agreement, the
+Privacy Policy, or other policy documents and community guidelines incorporated
+herein<span>;</span></span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span>Swappa
+is unable to verify or authenticate any of your personal information or
+Content; or</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">3.<span>         </span>Swappa
+believes that a user is acting inconsistently with the letter or spirit of
+Swappa&#39;s policies, has engaged in improper or fraudulent activity on the Site
+or in connection with Swappa or the actions may cause legal liability or
+financial loss to Swappa&#39;s users or to Swappa.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">T.<span>        </span>Privacy</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Except as provided in
+Swappa&#39;s Privacy Policy, Swappa will not sell or disclose your personal
+information (as defined in the Privacy Policy) to third parties without your
+explicit consent. Swappa stores and processes <span>Content</span>
+on computers located in the United States that are protected by physical as
+well as technological security.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:1.0in;text-align:justify;text-justify:inter-ideograph"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">U.<span>        </span><span style="font-variant:small-caps">DISCLAIMER OF WARRANTIES</span></span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">SWAPPA, SWAPPA&#39;S
+SUBSIDIARIES, OFFICERS, DIRECTORS, EMPLOYEES, AND SWAPPA&#39;S SUPPLIERS PROVIDE
+THE SITE AND SWAPPA SERVICES &quot;AS IS&quot; AND WITHOUT ANY WARRANTY OR
+CONDITION, EXPRESS, IMPLIED OR STATUTORY. SWAPPA, SWAPPA&#39;S SUBSIDIARIES,
+OFFICERS, DIRECTORS, EMPLOYEES AND SWAPPA&#39;S SUPPLIERS SPECIFICALLY DISCLAIM ANY
+IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, PERFORMANCE, FITNESS FOR A
+PARTICULAR PURPOSE AND NON-INFRINGEMENT.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">THE SITE, SWAPPA SERVICES,
+AND ALL INFORMATION, CONTENT, MATERIALS, PRODUCTS (INCLUDING SOFTWARE) AND
+OTHER SERVICES INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE SITE
+OR THROUGH SWAPPA SERVICES ARE PROVIDED BY SWAPPA ON AN &quot;AS IS&quot; AND
+&quot;AS AVAILABLE&quot; BASIS, UNLESS OTHERWISE SPECIFIED IN WRITING. SWAPPA
+MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO
+ANY SWAPPA SERVICES, THE OPERATION OF THE SITE, OR THE INFORMATION, CONTENT,
+MATERIALS, PRODUCTS (INCLUDING SOFTWARE) OR OTHER SERVICES INCLUDED ON OR
+OTHERWISE MADE AVAILABLE TO YOU THROUGH THE SITE OR OTHER SWAPPA SERVICES, UNLESS
+OTHERWISE SPECIFIED IN WRITING.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">YOU EXPRESSLY AGREE THAT
+YOUR USE OF THE SITE AND/OR SWAPPA SERVICES IS AT YOUR SOLE RISK.</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">TO THE FULL EXTENT
+PERMISSIBLE BY APPLICABLE LAW, SWAPPA DISCLAIMS ALL WARRANTIES, EXPRESS OR
+IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE. SWAPPA DOES NOT WARRANT THAT THE SITE OR
+SWAPPA SERVICES, INFORMATION, CONTENT, MATERIALS, PRODUCTS (INCLUDING SOFTWARE)
+OR OTHER SERVICES INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE
+SITE, SWAPPA'S SERVERS OR ELECTRONIC COMMUNICATIONS SENT FROM SWAPPA ARE FREE
+OF VIRUSES OR OTHER HARMFUL COMPONENTS. SWAPPA WILL NOT BE LIABLE FOR ANY
+DAMAGES OF ANY KIND ARISING FROM THE USE OF ANY SWAPPA SERVICES, OR FROM ANY INFORMATION,
+CONTENT, MATERIALS, PRODUCTS (INCLUDING SOFTWARE) OR OTHER SERVICES INCLUDED ON
+OR OTHERWISE MADE AVAILABLE TO YOU, INCLUDING, BUT NOT LIMITED TO DIRECT,
+INDIRECT, INCIDENTAL, PUNITIVE, AND CONSEQUENTIAL DAMAGES, UNLESS OTHERWISE
+SPECIFIED IN WRITING.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">FURTHER, SWAPPA SHALL NOT
+BE LIABLE IN ANY WAY FOR THIRD PARTY PROMISES REGARDING OFFERINGS OR CONTENT ON
+THE SITE OR FOR ASSISTANCE IN CONDUCTING COMMERCIAL TRANSACTIONS WITH A THIRD
+PARTY THROUGH THE SITE, INCLUDING WITHOUT LIMITATION THE PROCESSING OF ORDERS.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><span style="font-family:&quot;Times New Roman&quot;;color:black">IN ADDITION, NO ADVICE OR INFORMATION (ORAL OR
+WRITTEN) OBTAINED BY YOU FROM SWAPPA SHALL CREATE ANY WARRANTY.CERTAIN STATE
+LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR
+LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE
+ABOVE DISCLAIMERS, EXCLUSIONS, OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU
+MIGHT HAVE ADDITIONAL RIGHTS. PLEASE CONSULT THE LAW IN YOUR JURISDICTION.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">V.<span>        </span>LIMITATION OF LIABILITY</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">IN NO EVENT SHALL SWAPPA
+AND/OR (AS APPLICABLE) SWAPPA&#39;S SUBSIDIARIES, OFFICERS, DIRECTORS, EMPLOYEES OR
+SWAPPA&#39;S SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER, WHETHER DIRECT,
+INDIRECT, GENERAL, SPECIAL, COMPENSATORY, CONSEQUENTIAL, AND/OR INCIDENTAL, ARISING
+OUT OF OR RELATING TO THE CONDUCT OF YOU OR ANYONE ELSE IN CONNECTION WITH THE
+USE OF THE SITE, SWAPPA SERVICES, OR THIS AGREEMENT, INCLUDING WITHOUT
+LIMITATION, LOST PROFITS, BODILY INJURY, EMOTIONAL DISTRESS, OR ANY SPECIAL,
+INCIDENTAL OR CONSEQUENTIAL DAMAGES.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">SWAPPA&#39;S LIABILITY, AND (AS
+APPLICABLE) THE LIABILITY OF SWAPPA&#39;S SUBSIDIARIES, OFFICERS, DIRECTORS,
+EMPLOYEES, AND SUPPLIERS, TO YOU OR ANY THIRD PARTIES IN ANY CIRCUMSTANCE IS
+LIMITED TO THE GREATER OF (A) THE AMOUNT OF FEES YOU PAY TO SWAPPA IN THE 12
+MONTHS PRIOR TO THE ACTION OR EVENT GIVING RISE TO LIABILITY, AND (B) $100.
+SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR
+CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO
+YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:12.0pt"><span style="font-size:10.0pt;font-family:Times"><br>
+<br>
+</span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;font-variant:small-caps;color:black">W.<span>       </span>INDEMNITY</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">YOU AGREE TO DEFEND,
+INDEMNIFY AND HOLD SWAPPA AND (AS APPLICABLE) SWAPPA&#39;S PARENT COMPANIES,
+SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, AGENTS, AND EMPLOYEES, HARMLESS
+FROM AND AGAINST ANY CLAIM OR DEMAND, INCLUDING REASONABLE ATTORNEYS&#39; FEES,
+MADE BY ANY THIRD PARTY DUE TO OR ARISING OUT OF YOUR USE OR MISUSE OF THE SITE
+OR ANY SWAPPA SERVICES, YOUR BREACH OF THIS AGREEMENT OR THE DOCUMENTS IT
+INCORPORATES BY REFERENCE, OR YOUR VIOLATION OF ANY LAW OR THE RIGHTS OF A
+THIRD PARTY.  SWAPPA RESERVES THE RIGHT, AT ITS OWN EXPENSE, TO ASSUME THE
+EXCLUSIVE DEFENSE AND CONTROL OF ANY MATTER OTHERWISE SUBJECT TO
+INDEMNIFICATION BY YOU, IN WHICH EVENT YOU WILL COOPERATE WITH SWAPPA IN
+ASSERTING ANY AVAILABLE DEFENSES.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">X.<span>        </span>No Guarantee</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa does not guarantee
+continuous, uninterrupted access to the Site.  Operation of the Site may
+be interfered with by numerous factors outside Swappa&#39;s control.  You
+understand and agree that temporary interruptions of the site may occur as
+normal events that are out of Swappa's control.  You also understand and
+agree that Swappa has no control over the third-party networks or service(s)
+that Swappa may use to provide the Site and/or Swappa Services to you.
+ You agree that the Site and any Swappa Services are provided ÒAS ISÓ and
+that Swappa assumes no responsibility for the timeliness, deletion,
+mis-delivery or failure to store any user communications or personalization
+settings.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">Y.<span>        </span>Legal Compliance; Taxes</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Your use of the Site and any
+Swappa Service is subject to all applicable laws and regulations.  You
+shall comply with all applicable domestic and international laws, statutes,
+ordinances and regulations regarding your use of the Site and any Swappa
+Service and, if applicable, your listing, purchase, solicitation of offers to
+purchase, and sale of items. In addition, you shall be responsible for paying
+any and all taxes applicable to any purchases or sales of items you make on the
+Site (excluding any taxes on Swappa&#39;s net income).</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">Z.<span>         </span>Confidentiality</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:1.0in"><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span><u>Content and
+Communications With Swappa Treated as Non-Confidential</u>.  All
+information and communications sent by you to Swappa will be treated as
+non-confidential and non-proprietary (subject to Swappa's privacy policy).
+ Please do not submit confidential or proprietary information to Swappa
+(including patentable ideas, new content suggestions or business proposals)
+unless you and Swappa have mutually agreed in writing otherwise.  Idea and
+information that Swappa receives unsolicited will be treated as property owned
+by Swappa and will not be returned to you.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:1.0in"><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span><u>Compliance With
+Law Enforcement and Other Investigative Agencies</u>.  Swappa does not
+routinely inspect or disclose any information or communications received from
+users.  However, Swappa makes every effort to comply with law enforcement
+officials or other investigative agencies to prevent crime and/or the sale of
+stolen goods or products on the Site.  Swappa reserves the right to
+inspect or disclose to any third party and for any reason whatsoever any
+information provided by you to Swappa, including but not limited to, compliance
+with the Electronic Communications Privacy Act, 18 U.S.C. ¤ 2510, <i>et seq.</i>
+or as otherwise required by law or by court or governmental order.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">AA.<span>      </span>Severability</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">If any provision of this
+Agreement is held unenforceable, then such provision will be modified to
+reflect the parties&#39; intention. All remaining provisions of this Agreement
+shall remain in full force and effect.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">AA.<span>      </span>No Agency</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">You and Swappa are
+independent contractors, and no agency, partnership, joint venture,
+employee-employer or franchiser-franchisee relationship is intended or created
+by this Agreement.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">BB.<span>      </span>Modification or Termination of Swappa
+Services</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">Swappa reserves the right to
+modify or terminate any Swappa Service for any reason, without notice to you,
+at any time. Swappa reserves the right to alter these Terms of Use or other
+Site policies at any time without notice to you, so please review the policies
+frequently. If Swappa makes a material change to this Agreement or to its Terms
+of Service, Swappa will attempt to notify you here, by email, by means of a
+notice on Swappa's home page, or other place(s) Swappa deems appropriate. What
+constitutes a &quot;material change&quot; will be determined at Swappa&#39;s sole
+discretion, in good faith, and using common sense and reasonable judgment.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">CC.<span>     </span>Choice of Law</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">This Agreement shall in all
+respects be interpreted and construed with and by the laws of the State of
+Missouri, excluding its conflicts of laws rules, and the United States of
+America.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">DD.<span>     </span>Notices</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span><span style="font-family:&quot;Times New Roman&quot;;color:black">1.<span>         </span><u>Notice</u></span></span><u><span style="font-family:&quot;Times New Roman&quot;;color:black"> to Swappa</span></u><span style="font-family:&quot;Times New Roman&quot;;color:black">.  Except as
+explicitly stated otherwise, any notices shall be given by postal mail to
+Swappa, LLC; Attn: Legal Department; 6014 NW Highway 9; Suite B; Parkville MO 64152.
+Notice shall be deemed given upon receipt by Swappa.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span><span style="font-family:&quot;Times New Roman&quot;;color:black">2.<span>         </span>Notice</span></span><span style="font-family:&quot;Times New Roman&quot;;color:black"> to User(s).  Except as explicitly stated otherwise, <span>any notices shall be given by Swappa</span> to you at the email
+address you provide to Swappa either during the registration process or when
+your email address changes. Notice shall be deemed given 24 hours after the
+email is sent. Alternatively, Swappa may give you
+notice by certified mail, postage prepaid and return receipt requested, to the
+address provided to Swappa. In such case, notice shall be deemed given three
+days after the date of mailing.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><b><span style="font-family:&quot;Times New Roman&quot;;color:black">EE.<span>      </span>Disclosures</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:.5in"><span style="font-family:&quot;Times New Roman&quot;;color:black">The services hereunder are
+offered by Swappa, LLC, <span>6324</span> N. Chatham Ave, #309,
+Kansas City, MO 64151.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><b><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>            </span>FF.<span>      </span>Entire Agreement</span></b><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p style="margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph"><b><span style="font-family:&quot;Times New Roman&quot;;color:black"><span>            </span></span></b><span style="font-family:&quot;Times New Roman&quot;;color:black">This Agreement contains the entire agreement and understanding of
+the parties with respect to its subject matter and supersedes any prior or
+contemporaneous written or oral representations, discussions, proposals,
+understandings, Terms of Service, and the like respecting the subject matter
+hereof.</span><span style="font-size:10.0pt;font-family:Times"></span></p>
+
+<p><span style="font-size:10.0pt;font-family:Times"> </span></p>
+
+<p> </p>
+
+</div>
+
+
+	<div class="vertical_spacer"></div>
+
+</section>
+
+
+</div> <!-- end container -->
+
+
+</div>
+
+
+
+	<script>
+	(function() {
+
+		$("a[data-confirm]").on('click', function () {
+			var msg = $(this).data('confirm') || 'Are you sure?';
+			return confirm(msg);
+		});
+
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 65) {
+				$('.navbar').addClass('bordered');
+			} else {
+				$('.navbar').removeClass('bordered');
+			}
+		});
+
+		$('[data-toggle="popover"]').popover({container: 'body'})
+
+	  })();
+	</script>
+
+
+<footer>
+	<div class="container clearfix">
+		<div class="row">
+
+			<div class="col-xs-6 col-sm-2">
+				<!-- Buy -->
+				<ul>
+					<li><a href="/buy">Buy</a></li>
+					<li><a href="/buy/phones" title="Buy used phone">Buy Phones</a></li>
+					<li><a href="/buy/tablets" title="Tablets and iPads">Buy Tablets</a></li>
+					<li><a href="/laptops/macbooks" title="MacBooks for sale">Buy MacBooks</a></li>
+					<li><a href="/laptops" title="MacBooks, Chromebooks and Laptops">Buy Laptops</a></li>
+					<li><a href="/cameras" title="Used cameras and lenses">Buy Cameras</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/buy/iphones" title="Buy used iPhone">Buy iPhones</a></li>
+					<li><a href="/gaming" title="Video games and consoles">Buy Video Games</a></li>
+					<li><a href="/wearables" title="Watches and Wearables">Buy Watches & Wearables</a></li>
+					<li><a href="/home-tech" title="Smart Home Tech">Buy Home Tech</a></li>
+					<li><a href="/cheap-phones" title="Cheap phones">Cheap Phones</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Sell -->
+				<ul>
+					<li><a href="/sell">Sell</a></li>
+					<li><a href="/how-to-sell">How to Sell</a></li>
+					<li><a href="/sell/iphone" title="Sell used iPhone">Sell iPhones</a></li>
+					<li><a href="/sell/phone" title="Sell used smartphone">Sell Phone</a></li>
+					<li><a href="/sell/tablets" title="Sell iPad or tablet">Sell Tablet</a></li>
+					<li><a href="/sell/laptops" title="Sell MacBooks, Chromebooks and Laptops">Sell Laptop</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/phone-finder">Phone Finder</a></li>
+					<li><a href="/esn" title="IMEI check">IMEI / ESN Check</a></li>
+					<li><a href="/vs/ebay">Swappa vs. eBay</a></li>
+					<li><a href="/vs/craigslist">Swappa vs. Craigslist</a></li>
+					<li><a href="/affiliate">Affiliate Program</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Support -->
+				<ul>
+					<li><a href="/help">Help</a></li>
+					<li><a href="/faq">FAQs</a></li>
+					<li><a href="/data-services">Data Services</a></li>
+					<li><a href="/mobile-price-list" title="Used Mobile Price Lists">Price Lists</a></li>
+					<li><a href="/broken" title="Broken Phone Solutions">Broken, <a href="/repair" title="Repair Network">Repair</a></a>
+					<li><a href="/protection-plans" title="Used phone protection plans">Protection Plans</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- About -->
+				<ul>
+					<li><a href="/about">About Swappa</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/contact">Contact us</a></li>
+					<li><a href="/press">Press</a>, <a href="/reviews">Reviews</a></li>
+					<li><a href="/policies">Policies</a>, <a href="/fees">Fees</a></li>
+					<li><a href="/terms">Terms of Use</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-4">
+				<a href="/">
+					<img id="footer_logo" src="https://static.swappa.com/static/images/logos/swappa_footer.svg" alt="Swappa" style="margin-left: -11px; max-width: 200px;" />
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="social_links">
+					<a href="https://www.facebook.com/pages/Swappa/160481130660410" class="social"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/swappa" class="social"><i class="fa fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/swappa/" class="social"><i class="fa fa-instagram"></i></a>
+					<a href="https://plus.google.com/+Swappa" class="social"><i class="fa fa-google-plus-square"></i></a>
+					<a href="https://www.youtube.com/channel/UCMWoALjKAnY_eS65aPStyjQ" class="social"><i class="fa fa-youtube-square"></i></a>
+					<a href="https://in.pinterest.com/Swappa/" class="social"><i class="fa fa-pinterest-square"></i></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="copyright">
+					Copyright © 2010 - 2018 Swappa, LLC
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+	<li class="sortable-consent" style="display:none">
+    	<a href="javascript:window.deployads.showConsentTool()">Manage Consent</a>
+	</li>
+
+
+
+
+</body>
+</html>

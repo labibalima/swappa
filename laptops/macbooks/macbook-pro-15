@@ -1,0 +1,7118 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+
+	<title>Used MacBook Pro 15" for sale - Swappa</title>
+	<meta name="description" content="
+	Used MacBook Pro 15" for sale on Swappa. Safety, simplicity,
+	and staff-approved listings make Swappa the better place to buy.
+" />
+	<meta name="keywords" content="Swappa, mobile, used, phone, smartphone, iPhone, tablet, device, buy, sell, sale, games, playstation, xbox, nintendo" />
+	<!-- Meta -->
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"d7e1fe928c","agent":"","transactionName":"YlYGY0UHW0YFWkIKVlscIkJZBUFcC1cZDlhHWAFDGRBcUBNKDBNLWlcRVEM5UkcLTEY8W0BK","applicationID":"2879586","errorBeacon":"bam.nr-data.net","applicationTime":1887}</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#009a44">
+	<!-- Fav Icon -->
+	<link rel="shortcut icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" title="Favicon" />
+	<link rel="icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" />
+	<!-- Robots -->
+	
+	
+	
+	<meta name="Robots" content="index,follow" />
+	
+	
+	<!-- Misc -->
+	<meta name="google-site-verification" content="Av-kMi_k957YyPd7M0I_a2sn1GK4VyF7mEunnOiUacU" />
+	<link href="https://plus.google.com/+Swappa" rel="publisher" />
+	<!-- Open Graph -->
+	<meta property="og:app_id" content="128710807156604" />
+	<meta property="fb:app_id" content="128710807156604" />
+	<meta property="og:site_name" content="Swappa.com" />
+	<meta name="twitter:site" content="@swappa">
+	
+	
+	<!-- Share -->
+	<meta property="og:url" content="https://swappa.com/laptops/macbooks/macbook-pro-15" />
+	<meta name=”twitter:url” content="https://swappa.com/laptops/macbooks/macbook-pro-15" />
+	
+
+	<meta property="og:type" content="product" />
+	<meta property="og:title" content="MacBook Pro 15&quot;" />
+	<meta property="og:description" content=" Buy it cheap on Swappa." />
+	<meta property="og:image" content="https://static.swappa.com/media/product/macbook-pro-2018-15-touch/macbook-pro-2018-15-touch-01.png" />
+
+	<meta name="twitter:card" content="photo" />
+	<meta name="twitter:title" content="MacBook Pro 15&quot;" />
+	<meta name="twitter:description" content=" Buy it cheap on Swappa." />
+	<meta name="twitter:image" content="https://static.swappa.com/media/product/macbook-pro-2018-15-touch/macbook-pro-2018-15-touch-01.png" />
+	<meta itemprop="image" content="https://static.swappa.com/media/product/macbook-pro-2018-15-touch/macbook-pro-2018-15-touch-01.png">
+
+	
+	
+	
+
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org/",
+		"@type": "Product",
+		"name": "MacBook Pro 15\u0022",
+		"image": "https://static.swappa.com/media/product/macbook-pro-2018-15-touch/macbook-pro-2018-15-touch-01.png",
+		"description": "",
+
+
+
+
+		"offers": {
+			"@type": "AggregateOffer",
+			"offerCount": "66",
+			"lowPrice": "600.00",
+			"highPrice": "3499.00",
+			"priceCurrency": "USD"
+		}
+	}
+	</script>
+
+
+	<!-- Stylesheets -->
+	
+	<!-- Google Fonts -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+	<!-- Bootstrap -->
+	<link href="https://static.swappa.com/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://static.swappa.com/static/css/nwo-theme.css?20180608" rel="stylesheet">
+	<link href="https://static.swappa.com/static/css/style4.css?20180608" rel="stylesheet">
+	
+
+	
+	
+	<script>
+		var swappa_settings = { APP_MODE: "pro" };
+		if (swappa_settings.APP_MODE != 'pro') {
+			console.log("APP_MODE: " + swappa_settings.APP_MODE);
+		}
+	</script>
+	
+
+	<!-- Javascripts -->
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://static.swappa.com/static/js/html5shiv.js"></script>
+		<script src="https://static.swappa.com/static/js/respond.min.js"></script>
+	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap.js"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap3-supplemental.js" type="text/javascript"></script>
+	<meta name="twitter:widgets:csp" content="on">
+
+	<script async src="https://static.swappa.com/static/js/search-base.js"></script>
+	<script async src="https://static.swappa.com/static/js/nav.js?20181120a"></script>
+
+	<!-- Search Typeahead -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
+	
+		<script async src="https://static.swappa.com/js/devices_typeahead.js?111218" type="text/javascript"></script>
+	
+	
+
+	
+	
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+	
+	<script type="text/javascript">
+		Vue.options.delimiters = ["[[", "]]"]
+	</script>
+	
+
+	
+	<!-- http://code.google.com/p/ie7-js/ -->
+	<!--[if lt IE 8]>
+	<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js">var IE7_PNG_SUFFIX = ".png";</script>
+	<![endif]-->
+	
+
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-567TNCG');</script>
+	<!-- End Google Tag Manager -->
+	
+
+	
+	
+	<!-- Google Optimize -->
+	<style>.async-hide { opacity: 0 !important} </style>
+	<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+	})(window,document.documentElement,'async-hide','dataLayer',4000,
+	{'GTM-N23SSBG':true});</script>
+
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-501243-21', 'auto');
+	ga('require', 'GTM-N23SSBG'); <!-- Google Optimize -->
+	
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	
+	
+
+	
+	
+		
+			<!-- Facebook Pixel Code -->
+			<script>
+			!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+			fbq('init', '941700869275696');
+			fbq('track', "PageView");
+			</script>
+			<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=941700869275696&ev=PageView&noscript=1"
+			/></noscript>
+			<!-- End Facebook Pixel Code -->
+		
+	
+	<script>
+		fbq('track', 'ViewContent', {
+			content_name: "MacBook Pro 15\u0022",
+			
+			content_ids: ['macbook-pro-15'],
+			content_type: 'product',
+			value: 0.00,
+			currency: 'USD'
+		});
+	</script>
+
+
+	
+	
+
+	
+	
+	<script>
+	$(function() {
+
+		// tooltips
+		$(".has_tooltip").tooltip({
+			"container": "body"
+		});
+
+		// for messages
+		$(".messages .alert-error").addClass("alert-danger");
+
+		
+		$("input:not(.form-control)").each(function() {
+			if (jQuery.inArray($(this).attr("type"), ["file", "checkbox", "radio"]) == -1) {
+				$(this).addClass("form-control");
+			}
+		});
+
+	});
+
+	// GA events
+	$(function() {
+
+		// click to view a non-suggested listing
+		$(".top_nav_item > a").on("click", function(event) {
+			var text = $(this).text().trim();
+			ga("send", "event", "Site Nav", "Top Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+		$(".top_nav_item .dropdown-menu a").on("click", function(event) {
+			var top_text = $(this).parents(".top_nav_item").children("a").text().trim();
+			var drop_text = $(this).text().trim();
+			var text = top_text + " > " + drop_text;
+			ga("send", "event", "Site Nav", "Drop Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+
+	});
+	</script>
+	
+
+	<link rel="canonical" href="/laptops/macbooks/macbook-pro-15" />
+
+	<!-- Stars -->
+	<script src="https://static.swappa.com/static/jquery/raty-fa/jquery.raty-fa.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('.stars').raty({
+			score: function() {
+				return $(this).attr('data-value');
+			},
+			readOnly: true,
+			space: false
+		});
+	});
+	</script>
+
+	<style>
+		.btn_side_text {
+			font-size: 13px;
+			margin: 6px 0px 0px -10px;
+		}
+
+		.billboard_container {
+			min-height: 240px;
+		}
+		@media (max-width: 768px) {
+			.billboard_container {
+				min-height: 0px;
+			}
+		}
+
+		.price_marker {
+			padding: 5px;
+			font-size: 12px;
+			background-color: rgba(0, 0, 0, 0.02);
+			border-bottom: 1px solid #eceff1;
+			display: none;
+		}
+		.price_marker_swappa {
+			color: #009a44;
+		}
+		.price_marker_gamestop {
+			color: #c62828;
+		}
+		.staff-picks{
+			margin-top: 3%;
+			position: relative;
+		}
+		.staff-picks .staff-info{
+			font-weight: 500;
+			color: #333333;
+		}
+		.staff-picks a{
+			font-weight: 500;
+		}
+		.staff-picks .sprite{
+			position: absolute;
+			right: 84%;
+			top: -10%;
+			width: 22px;
+			height: 22px;
+		}
+		@media only screen and (max-width: 1024px){
+			.staff-picks .sprite {
+				right: 82%;
+			}
+		}
+		@media only screen and (max-width: 768px) and (min-width: 426px) {
+			.staff-picks .sprite {
+				right: 83%;
+			}
+		}
+		@media only screen and (max-width: 425px) {
+			.staff-picks .sprite {
+				right: 85%;
+			}
+		}
+		@media only screen and (max-width: 375px) {
+			.staff-picks .sprite {
+				right: 83%;
+			}
+		}
+		@media only screen and (max-width: 320px) {
+			.staff-picks .sprite {
+				right: 80%;
+				top: -5%;
+			}
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-567TNCG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+	
+	<script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+	<script type="text/javascript">
+	  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){
+	  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');
+
+	  tap('create', '5852-29635f');
+	  tap('detect');
+	</script>
+
+
+<div id="wrap">
+
+
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#mobile-navbar-collapse-content" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/" title="Swappa" style="">
+				<img src="https://static.swappa.com/static/images/logos/logo_swappa_nav.svg" alt="Swappa Logo" />
+			</a>
+		</div>
+		<!-- Search bar -->
+		<div class="navbar-header">
+			<form id="header_search_form" class="navbar-form navbar-search navbar-left" role="search" action="/search" method="get">
+				<div class="input-group">
+					<div class="input-group">
+						<input type="text" name="q" id="id_q" class="form-control search_input" placeholder="Search for phones, tablets, laptops and more..." data-autocomplete-legacy="true" autocomplete="off" />
+						<span class="input-group-btn">
+							<button class="btn btn-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</span>
+					</div>
+					
+					
+					<ul class="search_suggestions dropdown-menu">
+						<li class="disabled" style="font-weight: 500;">
+							<a tabindex="-1" href="#">Trending Searches</a>
+						</li>
+						<li class="divider" style="margin: 3px 10px;"></li>
+						
+							<li>
+								<a href="/buy/apple-iphone-x" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone X
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel-xl" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel XL
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-7-plus" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 7 Plus
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-6s" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 6S
+								</a>
+							</li>
+						
+							<li>
+								<a href="/laptops/macbooks" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-laptop" aria-hidden="true"></i>
+									&nbsp;
+									MacBooks
+								</a>
+							</li>
+						
+							<li>
+								<a href="/cameras" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-search" aria-hidden="true"></i>
+									&nbsp;
+									Cameras
+								</a>
+							</li>
+						
+							<li>
+								<a href="/home-tech" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-home" aria-hidden="true"></i>
+									&nbsp;
+									Home Tech
+								</a>
+							</li>
+						
+					</ul>
+					
+				</div>
+			</form>
+		</div>
+
+		<div id="navbar-collapse-content" class="collapse navbar-collapse">
+
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li id="top_nav_sell" class="top_nav_item">
+					<a href="/sell" title="Sell" class="btn btn-default" style="padding: 8px 10px;">
+						Sell on Swappa
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_login" class="">
+					<a href="/login?next=/laptops/macbooks/macbook-pro-15" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="top_nav_register" class="">
+					<a href="/registration/register/?next=/laptops/macbooks/macbook-pro-15" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_cart" class="top_nav_item">
+					<a href="/cart" class="btn btn-default" style="padding: 8px 10px;" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						<sup>0</sup>
+					</a>
+				</li>
+			
+			</ul>
+
+			<div class="clearfix"></div>
+			<hr class="hidden-xs" style="margin: 0px;" />
+
+            
+                
+			    <ul id="nav_cat_bar" class="nav navbar-nav hidden-xs" style="width: 100%;">
+				<li id="top_nav_iphones" class="nav_bar_item" data-menu-slug="iphones">
+					<a href="/buy/iphones">
+						<i class="fa fa-apple"></i> iPhones
+					</a>
+				</li>
+				<li id="top_nav_phones" class="nav_bar_item" data-menu-slug="phones">
+					<a href="/buy/phones">
+						<i class="fa fa-mobile"></i> Phones
+					</a>
+				</li>
+				<li id="top_nav_laptops" class="nav_bar_item" data-menu-slug="laptops">
+					<a href="/laptops">
+						<i class="fa fa-laptop"></i> Laptops
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item" data-menu-slug="cameras">
+					<a href="/cameras">
+						<i class="fa fa-camera"></i> Cameras
+					</a>
+				</li>
+				<li id="top_nav_gaming" class="nav_bar_item hidden-sm" data-menu-slug="gaming">
+					<a href="/gaming">
+						<i class="fa fa-gamepad"></i> Video Games
+					</a>
+				</li>
+				<li id="top_nav_tablets" class="nav_bar_item hidden-sm" data-menu-slug="tablets">
+					<a href="/buy/tablets">
+						<i class="fa fa-tablet"></i> Tablets
+					</a>
+				</li>
+				<li id="top_nav_wearables" class="nav_bar_item visible-lg" data-menu-slug="wearables">
+					<a href="/wearables">
+						<i class="fa fa-clock-o"></i> Watches
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item visible-lg" data-menu-slug="home_tech">
+					<a href="/home-tech">
+						<i class="fa fa-home"></i> Home Tech
+					</a>
+				</li>
+				<li id="top_nav_more" class="nav_bar_item dropdown">
+					<a href="/buy" class="dropdown-toggle" data-toggle="dropdown">
+						More <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="visible-sm" data-menu-slug="gaming">
+							<a href="/gaming">
+								<i class="fa fa-gamepad"></i> Video Games
+							</a>
+						</li>
+						<li class="visible-sm" data-menu-slug="tablets">
+							<a href="/buy/tablets">
+								<i class="fa fa-tablet"></i> Tablets
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="wearables">
+							<a href="/wearables">
+								<i class="fa fa-clock-o"></i> Watches + Wearable
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="home_tech">
+							<a href="/home-tech">
+								<i class="fa fa-home"></i> Home Tech
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+            
+
+		</div>
+
+		<!-- MOBILE NAV -->
+		<div id="mobile-navbar-collapse-content" class="collapse navbar-collapse">
+
+			<ul id="mob_nav" class="nav navbar-nav visible-xs">
+			
+				<li id="mob_nav_cart" class="top_nav_item">
+					<a href="/cart" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						Cart (#)
+					</a>
+				</li>
+			
+				<li id="mob_nav_buy">
+					<a href="/buy" title="Buy">
+						Buy <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_sell">
+					<a href="/sell" title="Sell">
+						Sell <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_help">
+					<a href="/help" title="Help">
+						Help
+					</a>
+				</li>
+			
+				<li id="mob_nav_login">
+					<a href="/login?next=/laptops/macbooks/macbook-pro-15" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="mob_nav_register">
+					<a href="/registration/register/?next=/laptops/macbooks/macbook-pro-15" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			</ul>
+
+		</div>
+
+	</div>
+</header>
+
+
+
+
+<div class="container">
+
+	
+	<div class="messages">
+	
+	</div>
+	
+
+	<section id="section_usp_bar">
+	
+	
+	<script>
+	$(function() {
+
+		//$('a[data-toggle="popover"]').popover({trigger: 'click'});
+
+		$("a.usp_item").click(function() {
+			var text = $(this).text().trim();
+			ga("send", "event", "USP Bar", "Click Item", text, 0);
+		});
+
+	});
+	</script>
+
+	<div id="usp_bar">
+		<div class="row">
+
+			<div class="hidden-sm hidden-xs col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Buy and sell directly" data-content="On Swappa you buy and sell directly with other users. Cutting out the middleman means you join a community market with the best prices and highest value.">
+					<i class="fa fa-handshake-o" aria-hidden="true"></i>
+					<p>People Powered</p>
+				</a>
+			</div>
+
+			<div class="col-xs-4 col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Buy and sell with confidence" data-content="We use PayPal for payments because they provide extensive buyer and seller protections. Get what was advertised or get a refund.">
+					<i class="fa fa-paypal" aria-hidden="true"></i>
+					<p>PayPal Protection</p>
+				</a>
+			</div>
+
+			<div class="col-xs-4 col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Only fully functional allowed" data-content="To keep our marketplace safe we don’t allow broken items. Every product has listing requirements and an approval process to ensure confident shopping.">
+					<i class="fa fa-ban" aria-hidden="true"></i>
+					<p>No Junk</p>
+				</a>
+			</div>
+
+			
+			<div class="col-xs-4 col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="No surprise costs" data-content="Shipping costs are included in the listed price. You pay the price you see.">
+					<i class="fa fa-truck" aria-hidden="true"></i>
+					<p>Free Shipping</p>
+				</a>
+			</div>
+			
+
+		</div>
+	</div>
+
+	</section>
+
+	
+	<section id="breadcrumbs">
+	
+	<ul class="breadcrumb">
+		<li>
+			<a href="/">Swappa</a>
+		</li>
+	
+		<li>
+			<a href="/laptops">
+				Laptops
+			</a>
+		</li>
+	
+	
+		<li>
+			<a href="/laptops/macbooks">
+				MacBooks
+			</a>
+		</li>
+	
+		<li class="active">
+			MacBook Pro 15&quot;
+		</li>
+	</ul>
+
+	</section>
+	
+
+	
+<section id="section_top">
+
+</section>
+
+
+	
+<section id="section_billboard">
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" align="center">
+
+			<div style="margin-bottom: 10px; min-height: 170px;" align="center">
+				 
+					<img src="https://static.swappa.com/images/cache/9c/b0/9cb01fa2c0170f4dd75ff3fa4d5c20c0.png" class="img-responsive" height="240" alt="MacBook Pro 15&quot; for sale" />
+				
+			</div>
+
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-9 col-lg-9">
+
+			
+			<div class="billboard_container" style="">
+
+				
+				<div class="hidden-xs" style="height: 25px;"><!-- Vertical Spacer --></div>
+				
+				
+				<div class="hidden-xs" style="height: 45px;"><!-- Vertical Spacer --></div>
+				
+
+				<h1>
+					MacBook Pro 15&quot;
+					
+						<small style="white-space: nowrap;"></small>
+					
+				</h1>
+
+				<hr class="hidden-xs" />
+
+				<div class="row">
+					<div class="col-xs-6 col-md-3">
+						<a class="btn btn-default btn-block btn-sm" title="Sell my MacBook Pro 15&quot;" style="margin-bottom: 5px;"
+								href="/sell/macbook/macbook-pro-15">
+							Sell <span class="hidden-xs">your MacBook</span>
+						</a>
+					</div>
+					<div class="hidden-xs col-sm-6 col-md-3">
+						<p class="btn_side_text">
+							Sell with no listing fees
+						</p>
+					</div>
+				</div>
+
+				
+
+				
+
+			</div>
+
+			
+				
+				<div class="row hidden-xs" style="">
+					<div class="col-xs-9">
+						<h2 style="margin-bottom: 0px;">
+							<span>66 listings for</span>
+							$<span>600</span>-<span>3499</span>
+						</h2>
+					</div>
+					<div class="col-xs-3" align="right" style="">
+
+					</div>
+				</div>
+			
+
+		</div>
+	</div>
+
+	<hr/>
+
+</section>
+
+
+	
+<section id="section_main">
+
+
+	<div class="row">
+		<div class="col-xs-12 visible-xs">
+			<div class="row" style="">
+				<div class="col-xs-9 pull-left">
+					<h2>
+						<span>66</span> listings for
+						$<span>600</span>-<span>3499</span>
+					</h2>
+				</div>
+				<div class="col-xs-3 pull-right text-right">
+					<a href="javascript:showFilterModal();" class="btn btn-xl btn-default">Filter</a>
+				</div>
+			</div>
+
+			<hr style="margin-top: 5px;" />
+		</div>
+
+		<div class="hidden-xs col-sm-4 col-md-3">
+			
+			<div id="filter_container" class="well">
+				
+
+<script type="text/javascript">
+	params = {"product": [], "color": [], "product_edition": [], "storage": [], "memory": [], "processor": [], "condition": []}
+
+	function refresh_page() {
+		var parameters = $.param(params, true);
+		if (parameters) {
+			window.location.href = window.location.pathname + '?' + parameters;
+		} else {
+			window.location.href = window.location.pathname;
+		}
+	};
+
+	function clear_filters() {
+		params = [];
+		refresh_page();
+	};
+
+	$(function() {
+		for (var filter_key in params) {
+			if (params[filter_key].constructor === Array) {
+				for (var slug in params[filter_key]) {
+					$("input[type=checkbox][name="+ filter_key +"][value='"+ params[filter_key][slug] +"']", "#filters").prop("checked", true);
+				}
+			} else {
+				$("input[name="+ filter_key +"][value="+ params[filter_key] +"]", "#filters").prop("checked", true);
+			}
+		}
+
+		
+		$("input[type=checkbox]", "#filters").not("[data-single=true]").change(function () {
+			var filter_key = $(this).attr("name");
+
+			if($(this).is(":checked")) {
+				params[filter_key].push($(this).attr("value"));
+			} else {
+				var index = params[filter_key].indexOf($(this).attr("value"));
+				params[filter_key].splice(index, 1);
+			}
+			refresh_page();
+		});
+
+		
+		$("input[type=checkbox][data-single=true]", "#filters").change(function () {
+			var filter_key = $(this).attr("name");
+
+			if($(this).is(":checked")) {
+				params[filter_key] = $(this).attr("value");
+			} else {
+				try{
+					delete params[filter_key];
+				} catch(e) {}
+			}
+			refresh_page();
+		});
+
+		
+		$("input[type=radio]", "#filters").change(function () {
+			var filter_key = $(this).attr("name");
+			params[filter_key] = $(this).attr("value");
+			refresh_page();
+		});
+
+		
+		$("#clear_filters").click(function(){
+			clear_filters();
+		});
+
+		
+		$("a[data-facet-link]").click(function () {
+			var filter_key = $(this).data("name");
+			
+			$(this).parents(".modal").modal("hide");
+
+			
+			if (params[filter_key].indexOf($(this).data("value")) < 0) {
+				params[filter_key].push($(this).data("value"));
+				refresh_page();
+			}
+		});
+
+	});
+
+</script>
+
+
+<div id="filters">
+
+	<div class="clearfix">
+		<h3 class="pull-left" style="margin-top: 0;">
+			Filter by
+		</h3>
+		<a class="pull-right" id="clear_filters" href="javascript:void(0);">
+			Clear filters
+		</a>
+	</div>
+
+	
+	<p><strong>Shipping</strong></p>
+	<ul class="list-unstyled">
+		<li>
+			<label>
+				<input type="checkbox" name="shipping" value="express_shipping" data-single="true">
+				Express Shipping
+			</label>
+		</li>
+	</ul>
+
+	
+		
+			 
+				<p><strong>Version</strong></p>
+				<ul class="list-unstyled">
+
+				
+					
+					
+						
+							<li>
+								<label class="text-muted">
+									<input type="checkbox" name="product" value="apple-macbook-pro-2011-unibody-15">
+									2011 (Unibody)
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label >
+									<input type="checkbox" name="product" value="apple-macbook-pro-2012-retina-15">
+									2012 (Retina) <span class="text-muted">(2)</span>
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label class="text-muted">
+									<input type="checkbox" name="product" value="apple-macbook-pro-2012-unibody-15">
+									2012 (Unibody)
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label >
+									<input type="checkbox" name="product" value="apple-macbook-pro-2013-retina-15">
+									2013 (Retina) <span class="text-muted">(10)</span>
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label >
+									<input type="checkbox" name="product" value="apple-macbook-pro-2014-retina-15">
+									2014 (Retina) <span class="text-muted">(4)</span>
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label >
+									<input type="checkbox" name="product" value="apple-macbook-pro-2015-retina-15">
+									2015 (Retina) <span class="text-muted">(8)</span>
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label >
+									<input type="checkbox" name="product" value="apple-macbook-pro-2016-15">
+									2016 (With Touch Bar) <span class="text-muted">(9)</span>
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label >
+									<input type="checkbox" name="product" value="apple-macbook-pro-2017-15">
+									2017 (With Touch Bar) <span class="text-muted">(14)</span>
+								</label>
+							</li>
+						
+					
+						
+							<li>
+								<label >
+									<input type="checkbox" name="product" value="macbook-pro-2018-15-touch">
+									2018 (With Touch Bar) <span class="text-muted">(19)</span>
+								</label>
+							</li>
+						
+					
+				
+
+				
+
+				</ul>
+			
+		
+	
+		
+			 
+				<p><strong>Condition</strong></p>
+				<ul class="list-unstyled">
+
+				
+					
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="condition" value="new">
+											New <span class="text-muted">(12)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="condition" value="mint">
+											Mint <span class="text-muted">(13)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="condition" value="good">
+											Good <span class="text-muted">(37)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="condition" value="fair">
+											Fair <span class="text-muted">(4)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+				
+
+				
+
+				</ul>
+			
+		
+	
+		
+			
+		
+	
+		
+			 
+				<p><strong>Processor</strong></p>
+				<ul class="list-unstyled">
+
+				
+					
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="processor" value="intel-core-i7">
+											Intel Core i7 <span class="text-muted">(15)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="processor" value="intel-core-i9">
+											Intel Core i9 <span class="text-muted">(4)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+				
+
+				
+
+				</ul>
+			
+		
+	
+		
+			 
+				<p><strong>Storage</strong></p>
+				<ul class="list-unstyled">
+
+				
+					
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="storage" value="128gb">
+											128 GB
+										</label>
+									</li>
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="storage" value="256gb">
+											256 GB <span class="text-muted">(24)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="storage" value="500gb">
+											500 GB
+										</label>
+									</li>
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="storage" value="512gb">
+											512 GB <span class="text-muted">(33)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="storage" value="640gb">
+											640 GB
+										</label>
+									</li>
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="storage" value="750gb">
+											750 GB
+										</label>
+									</li>
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="storage" value="768gb">
+											768 GB
+										</label>
+									</li>
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="storage" value="1tb">
+											1 TB <span class="text-muted">(9)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="storage" value="2tb">
+											2 TB
+										</label>
+									</li>
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="storage" value="4tb">
+											4 TB
+										</label>
+									</li>
+								
+							
+						
+					
+				
+
+				
+
+				</ul>
+			
+		
+	
+		
+			 
+				<p><strong>Memory</strong></p>
+				<ul class="list-unstyled">
+
+				
+					
+					
+						
+							
+								
+									<li>
+										<label class="text-muted">
+											<input type="checkbox" name="memory" value="4gb">
+											4 GB
+										</label>
+									</li>
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="memory" value="8gb">
+											8 GB <span class="text-muted">(7)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="memory" value="16gb">
+											16 GB <span class="text-muted">(57)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="memory" value="32gb">
+											32 GB <span class="text-muted">(2)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+				
+
+				
+
+				</ul>
+			
+		
+	
+		
+			 
+				<p><strong>Color</strong></p>
+				<ul class="list-unstyled">
+
+				
+					
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="color" value="space-gray">
+											Gray <span class="text-muted">(35)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+						
+							
+								
+									<li>
+										<label>
+											<input type="checkbox" name="color" value="silver">
+											Silver <span class="text-muted">(31)</span>
+										</label>
+									</li>
+
+								
+							
+						
+					
+				
+
+				
+
+				</ul>
+			
+		
+	
+
+	
+	<h3>Sort by</h3>
+	<ul class="list-unstyled">
+		<li>
+			<label>
+				<input type="radio" name="sort" value="price_min">
+				Price (lowest)
+			</label>
+
+		</li>
+		<li>
+			<label>
+				<input type="radio" name="sort" value="price_max">
+				Price (highest)
+			</label>
+		</li>
+		<li>
+			<label>
+				<input type="radio" name="sort" value="date_min">
+				Date (newest)
+			</label>
+		</li>
+		<li>
+			<label>
+				<input type="radio" name="sort" value="date_max">
+				Date (oldest)
+			</label>
+		</li>
+	</ul>
+
+</div>
+
+			</div>
+			
+		</div>
+
+		<div class="col-xs-12 col-sm-8 col-md-9">
+		
+			
+			<div class="listing_previews" style="margin-bottom: 12px;">
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="1">
+	<a href="/listing/view/LRNS75503" title="PROFESSIONALLY REFRESHED Great cond. Mid 2014 MBP 15&quot; with i7 2.5GHz, 256GB SSD, 16GB DDR3 RAM">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/9880a5e6de798fed7936b4f2a8cce849?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>GamingGrotto</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>33</sup> -
+								
+								<span>MA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>800</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2014 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>800</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="2">
+	<a href="/listing/view/LRLZ87762" title="MacBook Pro (Retina, 15-inch, Mid 2014) Plus NVIDIA GeForce GT 750M 2048 MB Intel Iris Pro 1536 MB">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/PLC567/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Ostap S.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>1</sup> -
+								
+								<span>Norwalk, CT</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1035</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2014 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1035</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="3">
+	<a href="/listing/view/LRMP66138" title="Primo 2014 Macbook Pro 15&quot; - loaded with extra accessories">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/bfd692921f4181dfa80819d9933f60f9?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>James H.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>3</sup> -
+								
+								<span>Memphis, TN </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1110</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2014 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1110</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="4">
+	<a href="/listing/view/LRND31514" title="MacBook Pro 2015 (Retina) - 15&quot; 1TB 16GB RAM!!! ONLY 67 CYCLE COUNT!!!!">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/22f2001701bae00b453c03002ffad439?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Abdo A.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>2</sup> -
+								
+								<span>Cleveland</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1235</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $100">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1235</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="5">
+	<a href="/listing/view/LRNK81455" title="Apple Refurbished MacBook Pro Retina - v2015 - 2.2 Ghz Intel Core 7, 16 GB, 256 GB H.D., Cycle Cnt 2">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/4673a26697e9f0dd542172f8598a77ab?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Mister S.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>32</sup> -
+								
+								<span>Cornelius, Oregon</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1529</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1529</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="6">
+	<a href="/listing/view/LRMT55543" title="Space Gray 2017 Macbook Pro 15&quot; i7 2.8GHz - 256GB - 16GB Touchbar">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/9880a5e6de798fed7936b4f2a8cce849?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>GamingGrotto</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>33</sup> -
+								
+								<span>Lynn MA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1575</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1575</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="7">
+	<a href="/listing/view/LRNJ10032" title="2017 Macbook Pro 15&quot; Silver - Touchbar, 2.8GHz, 512GB SSD, 16GB RAM, Radeon 555 GPU">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/9880a5e6de798fed7936b4f2a8cce849?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>GamingGrotto</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>33</sup> -
+								
+								<span>Lynn MA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1615</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1615</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="8">
+	<a href="/listing/view/LRMV54701" title="Mint 2017 Macbook Pro 15-inch Space Grey 256GB">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://graph.facebook.com/2346695948705021/picture" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Abraham R.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Los Angeles</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1635</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1635</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="9">
+	<a href="/listing/view/LRMX88561" title="Great Condition MacBook Pro with Radeon Pro 555X Graphics ">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/PJN313/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Blake Y.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>21</sup> -
+								
+								<span>Orange, TX</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1800</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1800</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="10">
+	<a href="/listing/view/LRNL86673" title="MacBook Pro 15&quot; - 256GB - 16GB - Core i7 - ABOLUTELY MINT - FULL RETAIL BOX - APPLECARE+ 2 Years!">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VJT316/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Brant R.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>3</sup> -
+								
+								<span>Exton, PA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1925</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1925</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="11">
+	<a href="/listing/view/LRNR18395" title="2017 Macbook Pro (with Touchbar) 3.1Ghz (quad core), 1TB storage, 16GB RAM memory, Radon Pro 560">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://graph.facebook.com/2113064482340991/picture" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Matt A.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>3</sup> -
+								
+								<span>Las Cruces</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2034</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2034</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="12">
+	<a href="/listing/view/LRNK68439" title="Brand New Macbook Pro 15&quot; 2018 (Newest 2018 Model)">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/16ecd91e80bc867e69cf1d8fd8dd4465?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Win N.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Wilmington Delaware</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2250</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+							<i class="fa fa-fw fa-star" style="color: #F76808;"></i>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $25">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2250</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="13">
+	<a href="/listing/view/LRME53506" title="Used Macbook Pro 15 In Retina">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/2fc45cae7db7cf41df5229bb23070c30?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Mike H.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>3</sup> -
+								
+								<span>Dedham, MA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>600</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Fair</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>8 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2012 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>600</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="14">
+	<a href="/listing/view/LRNQ15702" title="Macbook pro 15&#39; ">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/e6130a48d4a15317eda437810a2bd207?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Daniel B.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>4</sup> -
+								
+								<span>Daytona </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>620</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>8 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>620</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="15">
+	<a href="/listing/view/LRNH34468" title="Macbook Pro Retina Mid 2012 Pristine Condition.">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/898dc73fa693aad79bd28d809dd89af9?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>George J.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Bonita Springs, FL</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>670</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>8 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $25">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2012 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>670</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="16">
+	<a href="/listing/view/LRND07717" title="GOOD CONDITION - TRUSTED SELLER - FAST SHIPPING">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VHB024/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Phonadore</span>
+								
+									<span class="seller_tag _trusted"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>334</sup> -
+								
+								<span>ORLANDO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>699</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>8 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $50">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>699</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="17">
+	<a href="/listing/view/LRNU40070" title="Fast Shipping - 2013 MacBook Pro 15 8GB i7 2.4GHz 256GB  **Truster Seller**">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/YIY830/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Tech G.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="4.5"></span>
+									<sup>73</sup> -
+								
+								<span>Carroltton</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>710</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>8 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>710</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="18">
+	<a href="/listing/view/LRNE45247" title="MacBook Pro Late 2013 Retina 15.4&quot;/2.3GHz i7/16GB RAM/512GB Flash SSD">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/24e32d708998e22f7c1e077ba1bd45ed?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Scott K.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>3</sup> -
+								
+								<span>Michigan, US</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>720</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Fair</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>720</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="19">
+	<a href="/listing/view/LRND94268" title="GOOD CONDITION - TRUSTED SELLER - FAST SHIPPING">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VHB024/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Phonadore</span>
+								
+									<span class="seller_tag _trusted"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>334</sup> -
+								
+								<span>ORLANDO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>775</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>8 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $50">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>775</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="20">
+	<a href="/listing/view/LRND11096" title="GOOD CONDITION - TRUSTED SELLER - FAST SHIPPING">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VHB024/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Phonadore</span>
+								
+									<span class="seller_tag _trusted"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>334</sup> -
+								
+								<span>ORLANDO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>825</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>8 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $50">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>825</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="21">
+	<a href="/listing/view/LRNN18432" title="GOOD CONDITION - TRUSTED SELLER - FAST SHIPPING">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VHB024/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Phonadore</span>
+								
+									<span class="seller_tag _trusted"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>334</sup> -
+								
+								<span>ORLANDO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>875</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $50">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>875</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="22">
+	<a href="/listing/view/LRNS79998" title="Great condition 2013 MacBook Pro. Fast Shipping">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/BPS995/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Anh N.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Garland, TX</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>875</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>875</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="23">
+	<a href="/listing/view/LRNT06534" title="2014 Macbook Pro 16gb ram 256gb ssd Core i7 2.3ghz - near pristine condition!">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/bca35f2f9daac17518d01de11d6114e8?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>BudgetGoods</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>1</sup> -
+								
+								<span>Agoura Hills CA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>894</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $20">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>894</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="24">
+	<a href="/listing/view/LRNN55533" title="GOOD CONDITION - TRUSTED SELLER - FAST SHIPPING">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VHB024/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Phonadore</span>
+								
+									<span class="seller_tag _trusted"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>334</sup> -
+								
+								<span>ORLANDO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>899</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $50">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2014 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>899</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="25">
+	<a href="/listing/view/LRNT26265" title="Great condition 2015 MacBook Pro. Fast Shipping">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/BPS995/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Anh N.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Garland, tx</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>950</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Fair</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>950</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="26">
+	<a href="/listing/view/LRNP07878" title="2013 Macbook Pro 15 inch 16GB RAM 1TB Storage. ">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/874323fc07a2ca8ca6bd2affd0cb0746?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>JT t.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>204</sup> -
+								
+								<span>Washington D.C</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1000</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2013 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1000</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="27">
+	<a href="/listing/view/LRNR03837" title="Great condition MacBook pro. Fast Shipping">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/YPS324/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Aezaz Z.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="4.5"></span>
+									<sup>17</sup> -
+								
+								<span>reynoldsburg</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1000</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Fair</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $65">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1000</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="28">
+	<a href="/listing/view/LRMK28789" title="Excellent condition bought refurbished in February 2017">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/f8fdd8042da48a64ffbbbd64857320bf?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Victor K.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Havertown, PA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1035</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1035</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="29">
+	<a href="/listing/view/LRNE79845" title="Dual GPU i7 16gb 512gb | AppleCare+ Jan 2019| Original Box &amp; Charger">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/MHS502/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>One Piece</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>67</sup> -
+								
+								<span>Bellevue</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1100</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1100</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="30">
+	<a href="/listing/view/LRNJ44796" title="Excellent condition 15&quot; MacBook Pro Retina in original packaging plus charger">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://graph.facebook.com/823373732083/picture" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Brandon W.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Wake Forest, NC</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1135</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1135</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="31">
+	<a href="/listing/view/LRNN77355" title="Macbook Pro 2015 (Retina) 15&quot; 2.2GHz 16GB 1TB SSD NEW LCD/BATTERY/CHARGER">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/f13f8970545555de1b3a689ec1f5c407?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Enok&#39;on</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>3</sup> -
+								
+								<span>Rockville</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1320</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2015 (Retina) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1320</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="32">
+	<a href="/listing/view/LRNT90097" title="Fast Shipping - 2016 MacBook Pro 15 16GB i7 2.6GHz 256GB Radeon 450 **Truster Seller**">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/YIY830/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Tech G.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="4.5"></span>
+									<sup>73</sup> -
+								
+								<span>Carroltton</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1365</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1365</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="33">
+	<a href="/listing/view/LRNM23502" title="Gently Used Macbook Touchbar 147 charge cycles Comes with Charger">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/TUV654/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Jason W.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>25</sup> -
+								
+								<span>Smyrna, GA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1374</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $75">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1374</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="34">
+	<a href="/listing/view/LRNR16499" title="MacBrook Pro (Late 2016, Touch Bar, Retina Display)">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/8259b0263bc82c3cc9cc3c979ce67058?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Sarey H.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Brooklyn, NY</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1520</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1520</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="35">
+	<a href="/listing/view/LRNJ10340" title="MacBook Pro 15&quot;  w/ Apple Care (MINT)">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/fd2bf2b586216c123e4342055461ece7?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>NvS11</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>1</sup> -
+								
+								<span>Philadelphia, PA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1535</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1535</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="36">
+	<a href="/listing/view/LRND15663" title="Mid 2017 Macbook Pro with touchbar 256gb with Radeon 560 graphics!">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/56c60cc5c2bcd359145ecd1ca849c635?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>russell b.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="4.0"></span>
+									<sup>4</sup> -
+								
+								<span>san antonio</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1600</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1600</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="37">
+	<a href="/listing/view/LRNR03224" title="2016 15&quot; MacBook Pro with Touch Bar, 2.9ghz i7, 16gb, 500gb, AppleCare and Original Box">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/acc43bd9767b27fbed720e6cd41bc0f0?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Nic A.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>4</sup> -
+								
+								<span>Chicago</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1649</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1649</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="38">
+	<a href="/listing/view/LRNC07705" title="MacBook Pro in very good condition + very low battery cycle count">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/0e922122fa7c8a3dab66c8554c84f201?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Theodor S.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Montréal</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1650</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1650</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="39">
+	<a href="/listing/view/LRNP86092" title="2016 Macbook Pro 15inch With Applecare Plus until Nov. 17, 2019">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://graph.facebook.com/10202128037067949/picture" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Daniel I.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>1</sup> -
+								
+								<span>Tampa</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1660</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1660</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="40">
+	<a href="/listing/view/LRNQ52254" title="15&quot; Macbook Pro - 2016">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/4cc3464c38cb9d86f7a316c86eb0faa6?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Kevin A.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Littleton, CO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1785</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1785</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="41">
+	<a href="/listing/view/LRNM08423" title="(Excellent) 2017 MacBook Pro 15&#39; - 2.9 GHz i7, 512 GB SSD, Radeon 560 (only 88 cycles)">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/dc4cc92b0aaf61d9674005e767ed50b2?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Michael G.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>California</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1799</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1799</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="42">
+	<a href="/listing/view/LRNQ80952" title="Mid 2016 15&quot; MacBook Pro w/ Touch Bar  16gb 1 TB SSD">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://graph.facebook.com/318765608702737/picture" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Curt R.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Texarkana, TX </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1800</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2016 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1800</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="43">
+	<a href="/listing/view/LRLV81448" title="MacBook Pro 15” 2017 256GB SSD 16GB Ram">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/c9eff3c3e78727a841f68604e7ac7d47?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Nabeel R.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>1</sup> -
+								
+								<span>Fairfax, VA </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1825</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1825</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="44">
+	<a href="/listing/view/LRNQ93271" title="MacBook Pro 2017 (With Touch Bar) - 15">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/93b7c3112d9ad2751ce974784afda4d8?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Jae Eun  C.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Kansas City</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1864</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1864</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="45">
+	<a href="/listing/view/LRMN34817" title="MacBook Pro 15 i7 2.9 / Radeon 560 / 512gb / 16 gb / Apple care plus by 2020">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/CET582/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>ShareSwappa</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Pittsburgh</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1925</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $50">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1925</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="46">
+	<a href="/listing/view/LRNB16415" title="2018 Macbook Pro With Retina Display - 16 GB RAM - 256 GB SSD - i7 2.2 GHZ - Hexa Core">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/dde16c0752be6c696ccba5805f8b4336?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Aqil N.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Bellevue</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1970</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $70">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1970</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="47">
+	<a href="/listing/view/LRLA03870" title="Has Applecare + MacBook Pro 15&quot; 2017 i7 2.8GHz 16GB 512GB SSD Touch Bar with Magic Mouse 2 ">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/7f32c3a2e4b7cbdee91b11b9e954777c?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Mohammad</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>2</sup> -
+								
+								<span>Tracy</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>1998</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>1998</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="48">
+	<a href="/listing/view/LRNH18947" title="Macbook Pro 2017 15&quot; 1TB w/AMD 560">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/0be02fe3eadf5011e2b0089a8d3f316f?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Ryan K.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Denton, Tx</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2000</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2000</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="49">
+	<a href="/listing/view/LRNK73021" title="New Unopened 15&quot; 2017 Macbook Pro [512GB] With Touchbar">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/aac774cf41b0adcecab9dfb2fbcc5f1f?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>mactransactions</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>2</sup> -
+								
+								<span>Kankakee</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2000</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $50">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2000</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="50">
+	<a href="/listing/view/LRNA17542" title="Apple MacBook Pro 15-Inch">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/6a97e4211de073ac6043e243b33059ec?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Carlos A.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>1</sup> -
+								
+								<span>Los Angeles</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2150</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2017 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2150</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="51">
+	<a href="/listing/view/LRNG46854" title="Brand new 2018 Macbook Pro 15 Inch Touch Bar 256GB">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/874323fc07a2ca8ca6bd2affd0cb0746?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>JT t.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>204</sup> -
+								
+								<span>Washington D.C</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2150</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2150</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="52">
+	<a href="/listing/view/LRNU11947" title="MacBook Pro 2018 (With Touch Bar) - 15&quot; MINT CONDITION 3 BATTERY CYCLE!! APPLE CARE + UNTIL SEP 2021">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/22f2001701bae00b453c03002ffad439?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Abdo A.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>2</sup> -
+								
+								<span>Cleveland</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2150</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $100">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2150</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="53">
+	<a href="/listing/view/LRLX26588" title="MINT CONDITION - TRUSTED SELLER - FAST SHIPPING - APPLE CARE">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VHB024/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Phonadore</span>
+								
+									<span class="seller_tag _trusted"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>334</sup> -
+								
+								<span>ORLANDO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2250</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $80">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2250</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="54">
+	<a href="/listing/view/LRNP22573" title="BRAND NEW SEALED! 2018 MacBook pro 15inch! 256gb!">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://graph.facebook.com/9428475/picture" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>IbuyIcell</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>278</sup> -
+								
+								<span>Knoxville Tn</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2319</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2319</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="55">
+	<a href="/listing/view/LRMU64288" title="Sealed Box MacBook Pro 15&quot; 2.6GHz Core i7 / 16GB Ram / 512GB SSD #2">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/THG154/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>UgLy_PhOnE </span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>481</sup> -
+								
+								<span> California </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2350</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2350</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="56">
+	<a href="/listing/view/LRMU10000" title="Sealed Box MacBook Pro 15&quot; 2.6GHz Core i7 / 16GB Ram / 512GB SSD #3">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/THG154/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>UgLy_PhOnE </span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>481</sup> -
+								
+								<span> California </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2350</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2350</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="57">
+	<a href="/listing/view/LRMU90051" title="Sealed Box MacBook Pro 15&quot; 2.6GHz Core i7 / 16GB Ram / 512GB SSD #5">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/THG154/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>UgLy_PhOnE </span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>481</sup> -
+								
+								<span> California </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2350</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2350</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="58">
+	<a href="/listing/view/LRMU22621" title="Sealed Box MacBook Pro 15&quot; 2.6GHz Core i7 / 16GB Ram / 512GB SSD #4">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/THG154/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>UgLy_PhOnE </span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>481</sup> -
+								
+								<span> California </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2350</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2350</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="59">
+	<a href="/listing/view/LRNT61245" title=" close to MINT!!  2018 Macbook Pro with Applecare+ 12/2021 and Incase Shell /">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/QTX882/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>KKIMMEL</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>11</sup> -
+								
+								<span>SHELBY TWP</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2375</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2375</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="60">
+	<a href="/listing/view/LRNH77837" title="Apple MacBook Pro 2018 / 15” / 2.2ghz 16GB / 256GB /Touch ID Space Grey">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/594df264eea0b88a282b79fb17afd65c?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Long H.</span>
+								
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Santa Ana, CA</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2400</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">256 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2400</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="61">
+	<a href="/listing/view/LRNI25170" title="SEALED November 2018 MacBook Pro w/ TouchBar: 2.6GHz 6-Core i7/ 16GB RAM/ 512GB SSD/ Radeon Pro 560X">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/23c9aa6002a08ffefe9bdc47c3964e4a?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Charlie V.</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>5</sup> -
+								
+								<span>Brooklyn, NY</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2449</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Silver</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $100">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2449</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="62">
+	<a href="/listing/view/LRNT50861" title="2018 Apple MacBook Pro 15.4&quot; (512 GB, i7 2.6GHz, 16GB, 560X) Applecare+ included">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://www.gravatar.com/avatar/84ab7aabf90891109833e64595909f3a?s=50&amp;d=https%3A//static.swappa.com/static/icons/no_profile_50.png&amp;r=pg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>rburney</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="0"></span>
+									<sup>0</sup> -
+								
+								<span>Portland, OR</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2550</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Mint</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i7</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2550</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="63">
+	<a href="/listing/view/LRMU46316" title="Sealed Box MacBook Pro 15&quot; 2.9GHz Core i9 / 16GB Ram / 512GB SSD ">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/THG154/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>UgLy_PhOnE </span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>481</sup> -
+								
+								<span> California </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2599</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i9</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2599</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="64">
+	<a href="/listing/view/LRNM08832" title="MacBook Pro i9 15&#39; 2018 W/Touch Bar- Brand New Sealed- COMES WITH 1 YEAR APPLE WARRANTY!!!">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/AVL458/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>PhoneWorldStore</span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="4.5"></span>
+									<sup>609</sup> -
+								
+								<span>Las Vegas</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>2850</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i9</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>16 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>2850</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="65">
+	<a href="/listing/view/LRNQ36173" title="NEW SEALED BOX - TRUSTED SELLER - FAST SHIPPING">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/VHB024/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>Phonadore</span>
+								
+									<span class="seller_tag _trusted"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>334</sup> -
+								
+								<span>ORLANDO</span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>3299</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">New</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i9</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">512 GB</span>
+						&nbsp;&bull;&nbsp;<span>32 GB</span>
+						
+						
+							<span class="has_tooltip" style="color: #f76808;"
+									data-title="Optional Express Shipping (1-2 days) for $100">
+								<i class="fa fa-fw fa-bolt"></i>
+							</span>
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>3299</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+					
+
+
+
+
+<div class="listing_row listing_None listing_None" data-index="66">
+	<a href="/listing/view/LRML01410" title="MacBook Pro 15&quot; 2018 2.9GHz core i9 / 32GB Ram / 1TB SSD ">
+	<div class="row">
+
+		
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="seller_info">
+				<div class="pull-left" style="margin-right: 8px; position: relative;">
+					
+					
+						<img src="https://s3.amazonaws.com/swappa/users/THG154/profile_50.jpg" class="media-object circle_image" alt="" width="40" height="40" />
+					
+					
+					
+				</div>
+				<div class="media-body">
+					<div class="row">
+						<div class="col-xs-9 col-sm-10 col-md-12">
+							<div class="text-nowrap" style="overflow: hidden;">
+								<span>UgLy_PhOnE </span>
+								
+								
+									<span class="seller_tag _paypal"><i class="fa fa-paypal" aria-hidden="true"></i></span>
+								
+							</div>
+							<div class="text-nowrap" style="overflow: hidden;">
+								
+									<span id="stars-swappa" class="stars" data-value="5.0"></span>
+									<sup>481</sup> -
+								
+								<span> California </span>
+							</div>
+						</div>
+
+						<div class="col-xs-3 col-sm-2 hidden-md hidden-lg text-right">
+							
+								<span class="price"><sup>$</sup>3499</span>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+			<div class="listing_info">
+				<div class="row">
+					<div class="col-xs-12 col-md-10">
+						<span class="condition_label">Good</span>
+						
+						&nbsp;&bull;&nbsp;<span class="color_label">Gray</span>
+						&nbsp;&bull;&nbsp;<span>Intel Core i9</span>
+						&nbsp;&bull;&nbsp;<span class="storage_label">1 TB</span>
+						&nbsp;&bull;&nbsp;<span>32 GB</span>
+						
+						
+						<div class="clearfix"></div>
+						<div class="headline hidden-xs text-nowrap" style="overflow: hidden;">
+							MacBook Pro 2018 (With Touch Bar) - 15&quot;
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-2 text-right">
+					
+						<span class="price"><sup>$</sup>3499</span>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</a>
+</div>
+
+
+				
+			</div>
+			
+
+			
+		
+		</div>
+	</div>
+
+
+
+</section>
+
+
+	
+<section id="section_more" style="margin-bottom: 18px;">
+
+	
+		<p class="well" align="center">
+			<a href="/login?next=/laptops/macbooks/macbook-pro-15" rel="nofollow">Login</a> to hide these ads.
+		</p>
+	
+	
+		<!-- Gaming Ad -->
+		<div align="center" style="margin: 0px -20px;">
+			<!-- Sortable -->
+<div class="ad-tag" data-ad-name="ESN_970x250_to_300x250" data-ad-size="auto" ></div>
+<script>(deployads = window.deployads || []).push({});</script>
+		</div>
+	
+
+</section>
+
+
+</div> <!-- end container -->
+
+
+</div>
+
+
+	
+
+	<script>
+	(function() {
+
+		$("a[data-confirm]").on('click', function () {
+			var msg = $(this).data('confirm') || 'Are you sure?';
+			return confirm(msg);
+		});
+
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 65) {
+				$('.navbar').addClass('bordered');
+			} else {
+				$('.navbar').removeClass('bordered');
+			}
+		});
+
+		$('[data-toggle="popover"]').popover({container: 'body'})
+
+	  })();
+	</script>
+
+
+<footer>
+	<div class="container clearfix">
+		<div class="row">
+
+			<div class="col-xs-6 col-sm-2">
+				<!-- Buy -->
+				<ul>
+					<li><a href="/buy">Buy</a></li>
+					<li><a href="/buy/phones" title="Buy used phone">Buy Phones</a></li>
+					<li><a href="/buy/tablets" title="Tablets and iPads">Buy Tablets</a></li>
+					<li><a href="/laptops/macbooks" title="MacBooks for sale">Buy MacBooks</a></li>
+					<li><a href="/laptops" title="MacBooks, Chromebooks and Laptops">Buy Laptops</a></li>
+					<li><a href="/cameras" title="Used cameras and lenses">Buy Cameras</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/buy/iphones" title="Buy used iPhone">Buy iPhones</a></li>
+					<li><a href="/gaming" title="Video games and consoles">Buy Video Games</a></li>
+					<li><a href="/wearables" title="Watches and Wearables">Buy Watches & Wearables</a></li>
+					<li><a href="/home-tech" title="Smart Home Tech">Buy Home Tech</a></li>
+					<li><a href="/cheap-phones" title="Cheap phones">Cheap Phones</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Sell -->
+				<ul>
+					<li><a href="/sell">Sell</a></li>
+					<li><a href="/how-to-sell">How to Sell</a></li>
+					<li><a href="/sell/iphone" title="Sell used iPhone">Sell iPhones</a></li>
+					<li><a href="/sell/phone" title="Sell used smartphone">Sell Phone</a></li>
+					<li><a href="/sell/tablets" title="Sell iPad or tablet">Sell Tablet</a></li>
+					<li><a href="/sell/laptops" title="Sell MacBooks, Chromebooks and Laptops">Sell Laptop</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/phone-finder">Phone Finder</a></li>
+					<li><a href="/esn" title="IMEI check">IMEI / ESN Check</a></li>
+					<li><a href="/vs/ebay">Swappa vs. eBay</a></li>
+					<li><a href="/vs/craigslist">Swappa vs. Craigslist</a></li>
+					<li><a href="/affiliate">Affiliate Program</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Support -->
+				<ul>
+					<li><a href="/help">Help</a></li>
+					<li><a href="/faq">FAQs</a></li>
+					<li><a href="/data-services">Data Services</a></li>
+					<li><a href="/mobile-price-list" title="Used Mobile Price Lists">Price Lists</a></li>
+					<li><a href="/broken" title="Broken Phone Solutions">Broken, <a href="/repair" title="Repair Network">Repair</a></a>
+					<li><a href="/protection-plans" title="Used phone protection plans">Protection Plans</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- About -->
+				<ul>
+					<li><a href="/about">About Swappa</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/contact">Contact us</a></li>
+					<li><a href="/press">Press</a>, <a href="/reviews">Reviews</a></li>
+					<li><a href="/policies">Policies</a>, <a href="/fees">Fees</a></li>
+					<li><a href="/terms">Terms of Use</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-4">
+				<a href="/">
+					<img id="footer_logo" src="https://static.swappa.com/static/images/logos/swappa_footer.svg" alt="Swappa" style="margin-left: -11px; max-width: 200px;" />
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="social_links">
+					<a href="https://www.facebook.com/pages/Swappa/160481130660410" class="social"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/swappa" class="social"><i class="fa fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/swappa/" class="social"><i class="fa fa-instagram"></i></a>
+					<a href="https://plus.google.com/+Swappa" class="social"><i class="fa fa-google-plus-square"></i></a>
+					<a href="https://www.youtube.com/channel/UCMWoALjKAnY_eS65aPStyjQ" class="social"><i class="fa fa-youtube-square"></i></a>
+					<a href="https://in.pinterest.com/Swappa/" class="social"><i class="fa fa-pinterest-square"></i></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="copyright">
+					Copyright © 2010 - 2018 Swappa, LLC
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+	<li class="sortable-consent" style="display:none">
+    	<a href="javascript:window.deployads.showConsentTool()">Manage Consent</a>
+	</li>
+
+
+	<script type="text/javascript">
+	
+	function showFilterModal() {
+		jQuery("#filters").detach().appendTo("#filter_modal .modal-body");
+		$("#filter_modal").modal("show");
+	}
+
+	$(function () {
+		$('#filter_modal').on('hide.bs.modal', function () {
+			jQuery("#filters").detach().appendTo("#filter_container");
+		});
+	});
+</script>
+
+<div id="filter_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="filter_modal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">
+					Filter
+				</h4>
+			</div>
+			<div class="modal-body">
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+</body>
+</html>

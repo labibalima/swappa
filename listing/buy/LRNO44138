@@ -1,0 +1,932 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+
+	<title>Login to Swappa - Swappa</title>
+	<meta name="description" content="Login to Swappa with Google, XDA, Yahoo or Facebook" />
+	<meta name="keywords" content="Swappa, mobile, used, phone, smartphone, iPhone, tablet, device, buy, sell, sale, games, playstation, xbox, nintendo" />
+	<!-- Meta -->
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"d7e1fe928c","agent":"","transactionName":"YlYGY0UHW0YFWkIKVlscIkJZBUFcC1cZD1ZSWgoZQQ9QQhcDWgxeXF0=","applicationID":"2879586","errorBeacon":"bam.nr-data.net","applicationTime":38}</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#009a44">
+	<!-- Fav Icon -->
+	<link rel="shortcut icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" title="Favicon" />
+	<link rel="icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" />
+	<!-- Robots -->
+	
+	
+	
+	<meta name="Robots" content="index,follow" />
+	
+	
+	<!-- Misc -->
+	<meta name="google-site-verification" content="Av-kMi_k957YyPd7M0I_a2sn1GK4VyF7mEunnOiUacU" />
+	<link href="https://plus.google.com/+Swappa" rel="publisher" />
+	<!-- Open Graph -->
+	<meta property="og:app_id" content="128710807156604" />
+	<meta property="fb:app_id" content="128710807156604" />
+	<meta property="og:site_name" content="Swappa.com" />
+	<meta name="twitter:site" content="@swappa">
+	
+	<!-- Share -->
+	<meta property="og:url" content="https://swappa.com/login?next=%2Flisting%2Fbuy%2FLRNO44138" />
+	<meta name=”twitter:url” content="https://swappa.com/login?next=%2Flisting%2Fbuy%2FLRNO44138" />
+	
+	
+	
+
+	<!-- Stylesheets -->
+	
+	<!-- Google Fonts -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+	<!-- Bootstrap -->
+	<link href="https://static.swappa.com/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://static.swappa.com/static/css/nwo-theme.css?20180608" rel="stylesheet">
+	<link href="https://static.swappa.com/static/css/style4.css?20180608" rel="stylesheet">
+	
+
+	
+	
+	<script>
+		var swappa_settings = { APP_MODE: "pro" };
+		if (swappa_settings.APP_MODE != 'pro') {
+			console.log("APP_MODE: " + swappa_settings.APP_MODE);
+		}
+	</script>
+	
+
+	<!-- Javascripts -->
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://static.swappa.com/static/js/html5shiv.js"></script>
+		<script src="https://static.swappa.com/static/js/respond.min.js"></script>
+	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap.js"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap3-supplemental.js" type="text/javascript"></script>
+	<meta name="twitter:widgets:csp" content="on">
+
+	<script async src="https://static.swappa.com/static/js/search-base.js"></script>
+	<script async src="https://static.swappa.com/static/js/nav.js?20181120a"></script>
+
+	<!-- Search Typeahead -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
+	
+		<script async src="https://static.swappa.com/js/devices_typeahead.js?111218" type="text/javascript"></script>
+	
+	
+
+	
+	
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+	
+	<script type="text/javascript">
+		Vue.options.delimiters = ["[[", "]]"]
+	</script>
+	
+
+	
+	<!-- http://code.google.com/p/ie7-js/ -->
+	<!--[if lt IE 8]>
+	<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js">var IE7_PNG_SUFFIX = ".png";</script>
+	<![endif]-->
+	
+
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-567TNCG');</script>
+	<!-- End Google Tag Manager -->
+	
+
+	
+	
+	<!-- Google Optimize -->
+	<style>.async-hide { opacity: 0 !important} </style>
+	<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+	})(window,document.documentElement,'async-hide','dataLayer',4000,
+	{'GTM-N23SSBG':true});</script>
+
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-501243-21', 'auto');
+	ga('require', 'GTM-N23SSBG'); <!-- Google Optimize -->
+	
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	
+	
+
+	
+		
+			<!-- Facebook Pixel Code -->
+			<script>
+			!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+			fbq('init', '941700869275696');
+			fbq('track', "PageView");
+			</script>
+			<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=941700869275696&ev=PageView&noscript=1"
+			/></noscript>
+			<!-- End Facebook Pixel Code -->
+		
+	
+
+	
+	
+
+	
+	
+	<script>
+	$(function() {
+
+		// tooltips
+		$(".has_tooltip").tooltip({
+			"container": "body"
+		});
+
+		// for messages
+		$(".messages .alert-error").addClass("alert-danger");
+
+		
+		$("input:not(.form-control)").each(function() {
+			if (jQuery.inArray($(this).attr("type"), ["file", "checkbox", "radio"]) == -1) {
+				$(this).addClass("form-control");
+			}
+		});
+
+	});
+
+	// GA events
+	$(function() {
+
+		// click to view a non-suggested listing
+		$(".top_nav_item > a").on("click", function(event) {
+			var text = $(this).text().trim();
+			ga("send", "event", "Site Nav", "Top Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+		$(".top_nav_item .dropdown-menu a").on("click", function(event) {
+			var top_text = $(this).parents(".top_nav_item").children("a").text().trim();
+			var drop_text = $(this).text().trim();
+			var text = top_text + " > " + drop_text;
+			ga("send", "event", "Site Nav", "Drop Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+
+	});
+	</script>
+	
+
+	<!-- Canonical: http://support.google.com/webmasters/bin/answer.py?hl=en&answer=139394&topic=2371375&ctx=topic -->
+	<link rel="canonical" href="/login" />
+
+	<link rel="stylesheet" href="https://static.swappa.com/static/font-awesome/css/bootstrap-social.css">
+
+	<style>
+		#formLogin .form-group {
+			margin-bottom: 16px;
+		}
+
+		.btn-social {margin-bottom: 10px;}
+		.btn-social-icon {margin: 10px 20px 0;}
+		.or_horizontal {
+			background-color: white;
+			display: block;
+			left: 50%;
+			margin-left: -1.5em;
+			position: absolute;
+			text-align: center;
+			top: -0.6em;
+			width: 3em;
+			color: #aaa;
+			font-size: 1.5em;
+		}
+		.or_vertical_container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -1em;
+			background-color: white;
+			height: 3em;
+			line-height: 3em;
+			margin-top: -1.5em;
+		}
+		.or_vertical {
+			height: 3em;
+			color: #aaa;
+			font-size: 1.5em;
+		}
+		.btn-social-icon.btn-xxl {
+			height: 75px;
+			padding-left: 0;
+			padding-right: 0;
+			width: 75px;
+		}
+		.btn-social-icon.btn-xxl *:first-child {
+			font-size: 1.9em;
+			line-height: 75px;
+			width: 75px;
+		}
+		.btn-xda{color:#fff;background-color:#fff;}
+		
+		.btn-xda:active,.btn-xda.active,.open>.dropdown-toggle.btn-xda{background-image:none}
+		.btn-xda.disabled,.btn-xda[disabled],fieldset[disabled] .btn-xda,.btn-xda.disabled:hover,.btn-xda[disabled]:hover,fieldset[disabled] .btn-xda:hover,.btn-xda.disabled:focus,.btn-xda[disabled]:focus,fieldset[disabled] .btn-xda:focus,.btn-xda.disabled:active,.btn-xda[disabled]:active,fieldset[disabled] .btn-xda:active,.btn-xda.disabled.active,.btn-xda[disabled].active,fieldset[disabled] .btn-xda.active{background-color:#ffbd2d;border-color:rgba(0,0,0,0.2)}
+		.btn-xda .badge{color:#ffbd2d;background-color:#fff}
+		.btn-xda img{
+			height: 50px;
+			position: relative;
+			top: 7px;
+		}
+
+		.forgot-password {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.btn-lg{
+			border-radius: 3px;
+		}
+		.btn-google{
+			color: #333333;
+    		background-color: #ffffff;
+    		border-color: rgba(0,0,0,0.2);
+    		opacity: 1;
+			margin-top: 16px;
+		}
+		.btn-google img{
+			background: #fff;
+			padding: 0 13px 0 0;
+			height: 22px;
+			position: relative;
+			top: -3px;
+		}
+		.grecaptcha-badge {
+			z-index: 10;
+		}
+	</style>
+
+	<script src="//ajax.microsoft.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+
+	
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	
+
+	<script type="text/javascript">
+	$(function() {
+		//Trim when email field becomes unfocused. Purely for looks since it is also trimmed in the submit handler.
+		$('#id_username').on('blur',function(e){
+			e.target.value = $.trim(e.target.value);
+		});
+		//Change the validate email method to trim and then call the old validate email function with the result.
+		var _oldemail = $.validator.methods.email;
+		$.validator.methods.email = function (value, element) {
+			return _oldemail.call(this, $.trim(value), element)
+		};
+
+		$("#formLogin").validate({
+			errorClass: "has-error",
+			errorElement: "p",
+			submitHandler: function(form) {
+				$(form).find('input').first().val('o7OoWGz9gyOUbbxil7N0edx7ZL09tQA8');
+				//Trim email before submitting. Makes sure it gets trimmed for fringe cases where blur might not get called.
+				$('#id_username').val(function(i,val){
+					return $.trim(val);
+				});
+				
+					grecaptcha.execute();
+				
+			},
+			highlight: function(element, errClass) {
+				$(element).parents("div.form-group").addClass(errClass); //.removeClass("has-success");
+			},
+			unhighlight: function(element, errClass) {
+				$(element).parents("div.form-group").removeClass(errClass); //.addClass("has-success");
+			},
+			errorPlacement: function(error, element) {
+				error.appendTo(element.parents(".form-group").find(".errors"));
+			},
+			rules: {
+				username: {
+					required: true,
+					email: true
+				},
+				password: {
+					required: true,
+					minlength: 4
+				}
+			}
+		});
+	});
+
+    //Analytics events for Login/Register
+	function gaLoginEvents(label){
+        ga('send', 'event', "Login and Signup", "click", label, 0, {transport: 'beacon'});
+	}
+	function onSubmit(token) {
+		document.getElementById('formLogin').submit();
+	}
+	</script>
+
+	
+	
+
+<script src="https://static.swappa.com/static/js/WebClientID.min.js"></script>
+<script>
+	$(function() {var wcID = ''; new WebClientID().get(function (result, components) { wcID = result;}); $('#id_webclient_id').closest('form').submit(function () {$(this).find('#id_webclient_id').val(wcID);})});
+</script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-567TNCG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+	
+	<script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+	<script type="text/javascript">
+	  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){
+	  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');
+
+	  tap('create', '5852-29635f');
+	  tap('detect');
+	</script>
+
+
+<div id="wrap">
+
+
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#mobile-navbar-collapse-content" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/" title="Swappa" style="">
+				<img src="https://static.swappa.com/static/images/logos/logo_swappa_nav.svg" alt="Swappa Logo" />
+			</a>
+		</div>
+		<!-- Search bar -->
+		<div class="navbar-header">
+			<form id="header_search_form" class="navbar-form navbar-search navbar-left" role="search" action="/search" method="get">
+				<div class="input-group">
+					<div class="input-group">
+						<input type="text" name="q" id="id_q" class="form-control search_input" placeholder="Search for phones, tablets, laptops and more..." data-autocomplete-legacy="true" autocomplete="off" />
+						<span class="input-group-btn">
+							<button class="btn btn-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</span>
+					</div>
+					
+					
+					<ul class="search_suggestions dropdown-menu">
+						<li class="disabled" style="font-weight: 500;">
+							<a tabindex="-1" href="#">Trending Searches</a>
+						</li>
+						<li class="divider" style="margin: 3px 10px;"></li>
+						
+							<li>
+								<a href="/buy/apple-iphone-x" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone X
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel-xl" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel XL
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-7-plus" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 7 Plus
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-6s" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 6S
+								</a>
+							</li>
+						
+							<li>
+								<a href="/laptops/macbooks" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-laptop" aria-hidden="true"></i>
+									&nbsp;
+									MacBooks
+								</a>
+							</li>
+						
+							<li>
+								<a href="/cameras" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-search" aria-hidden="true"></i>
+									&nbsp;
+									Cameras
+								</a>
+							</li>
+						
+							<li>
+								<a href="/home-tech" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-home" aria-hidden="true"></i>
+									&nbsp;
+									Home Tech
+								</a>
+							</li>
+						
+					</ul>
+					
+				</div>
+			</form>
+		</div>
+
+		<div id="navbar-collapse-content" class="collapse navbar-collapse">
+
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li id="top_nav_sell" class="top_nav_item">
+					<a href="/sell" title="Sell" class="btn btn-default" style="padding: 8px 10px;">
+						Sell on Swappa
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_login" class="">
+					<a href="/login?next=/login?next=%2Flisting%2Fbuy%2FLRNO44138" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="top_nav_register" class="">
+					<a href="/registration/register/?next=/login?next=%2Flisting%2Fbuy%2FLRNO44138" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_cart" class="top_nav_item">
+					<a href="/cart" class="btn btn-default" style="padding: 8px 10px;" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						<sup>26</sup>
+					</a>
+				</li>
+			
+			</ul>
+
+			<div class="clearfix"></div>
+			<hr class="hidden-xs" style="margin: 0px;" />
+
+            
+                
+			    <ul id="nav_cat_bar" class="nav navbar-nav hidden-xs" style="width: 100%;">
+				<li id="top_nav_iphones" class="nav_bar_item" data-menu-slug="iphones">
+					<a href="/buy/iphones">
+						<i class="fa fa-apple"></i> iPhones
+					</a>
+				</li>
+				<li id="top_nav_phones" class="nav_bar_item" data-menu-slug="phones">
+					<a href="/buy/phones">
+						<i class="fa fa-mobile"></i> Phones
+					</a>
+				</li>
+				<li id="top_nav_laptops" class="nav_bar_item" data-menu-slug="laptops">
+					<a href="/laptops">
+						<i class="fa fa-laptop"></i> Laptops
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item" data-menu-slug="cameras">
+					<a href="/cameras">
+						<i class="fa fa-camera"></i> Cameras
+					</a>
+				</li>
+				<li id="top_nav_gaming" class="nav_bar_item hidden-sm" data-menu-slug="gaming">
+					<a href="/gaming">
+						<i class="fa fa-gamepad"></i> Video Games
+					</a>
+				</li>
+				<li id="top_nav_tablets" class="nav_bar_item hidden-sm" data-menu-slug="tablets">
+					<a href="/buy/tablets">
+						<i class="fa fa-tablet"></i> Tablets
+					</a>
+				</li>
+				<li id="top_nav_wearables" class="nav_bar_item visible-lg" data-menu-slug="wearables">
+					<a href="/wearables">
+						<i class="fa fa-clock-o"></i> Watches
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item visible-lg" data-menu-slug="home_tech">
+					<a href="/home-tech">
+						<i class="fa fa-home"></i> Home Tech
+					</a>
+				</li>
+				<li id="top_nav_more" class="nav_bar_item dropdown">
+					<a href="/buy" class="dropdown-toggle" data-toggle="dropdown">
+						More <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="visible-sm" data-menu-slug="gaming">
+							<a href="/gaming">
+								<i class="fa fa-gamepad"></i> Video Games
+							</a>
+						</li>
+						<li class="visible-sm" data-menu-slug="tablets">
+							<a href="/buy/tablets">
+								<i class="fa fa-tablet"></i> Tablets
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="wearables">
+							<a href="/wearables">
+								<i class="fa fa-clock-o"></i> Watches + Wearable
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="home_tech">
+							<a href="/home-tech">
+								<i class="fa fa-home"></i> Home Tech
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+            
+
+		</div>
+
+		<!-- MOBILE NAV -->
+		<div id="mobile-navbar-collapse-content" class="collapse navbar-collapse">
+
+			<ul id="mob_nav" class="nav navbar-nav visible-xs">
+			
+				<li id="mob_nav_cart" class="top_nav_item">
+					<a href="/cart" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						Cart (#)
+					</a>
+				</li>
+			
+				<li id="mob_nav_buy">
+					<a href="/buy" title="Buy">
+						Buy <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_sell">
+					<a href="/sell" title="Sell">
+						Sell <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_help">
+					<a href="/help" title="Help">
+						Help
+					</a>
+				</li>
+			
+				<li id="mob_nav_login">
+					<a href="/login?next=/login?next=%2Flisting%2Fbuy%2FLRNO44138" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="mob_nav_register">
+					<a href="/registration/register/?next=/login?next=%2Flisting%2Fbuy%2FLRNO44138" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			</ul>
+
+		</div>
+
+	</div>
+</header>
+
+
+
+
+<div class="container">
+
+	
+			
+			
+
+	
+	<div class="messages" style="margin-bottom: 10px;">
+	
+	</div>
+	
+
+	
+		<ul class="breadcrumb">
+			<li>
+				<a href="/">Swappa</a>
+			</li>
+			<li class="active">
+				Login
+			</li>
+		</ul>
+	
+
+	<div class="row">
+
+		<div class="col-md-6 col-sm-10 col-md-offset-3 col-sm-offset-1 panel" style="margin-top: 20px; margin-bottom: 20px; padding: 20px;">
+
+			
+
+			<form id="formLogin" action="/login" method="post" role="form">
+				<input type="hidden" name="csrfmiddlewaretoken" class="form-control">
+				<input type="hidden" name="next" value="/listing/buy/LRNO44138" />
+				<input id="id_webclient_id" name="webclient_id" type="hidden" class="form-control">
+				<div class="form-group">
+					<label class="control-label" for="id_username">Email Address</label>
+					<input id="id_username" type="text" class="form-control input-lg" name="username" value="">
+					<div class="errors help-block" style="margin: 0px; padding-top: 5px;"></div>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="id_password">Password</label>
+					<input id="id_password" type="password" class="form-control input-lg" name="password" >
+					<div class="errors help-block" style="margin: 0px; padding-top: 5px;"></div>
+				</div>
+				<button class="btn btn-primary btn-block btn-lg" type="submit" onclick="return gaLoginEvents('Basic Auth Login');">Log In</button>
+				
+				<div id="recaptcha_desktop" class="g-recaptcha hidden-xs"
+					data-sitekey="6Lc4lFYUAAAAADjsQB2zLd1HQTIWlgKNS23dOHKc"
+					data-callback="onSubmit"
+					data-size="invisible">
+				</div>
+				
+			</form>
+
+			<a class="btn btn-block btn-lg btn-xxl btn-google"
+			   href="/login/google-plus/?next=/listing/buy/LRNO44138" rel="nofollow" onclick="return gaLoginEvents('Google Login');">
+			   <img src="https://static.swappa.com/static/icons/social/login_google.png"><span class="hidden-sm">Log In with Google</span>
+			</a>
+
+			<div class="text-center" style="margin-top: 20px; margin-bottom: 16px;">
+				<span style="color: #333333; font-size: 16px;">Or Log in with</span>
+			</div>
+
+			<div id="social-buttons" class="text-center" style="margin-bottom: 30px;">
+				<a class="btn btn-social-icon btn-facebook"
+				   href="/login/facebook/?next=/listing/buy/LRNO44138" rel="nofollow" onclick="return gaLoginEvents('Facebook Login');">
+
+					<img src="https://static.swappa.com/static/icons/social/facebook.png" style="padding:6px 3px;">
+				</a>
+				<a class="btn btn-social-icon btn-yahoo"
+				   href="/login/yahoo/?next=/listing/buy/LRNO44138" rel="nofollow" onclick="return gaLoginEvents('Yahoo Login');">
+					<i class="fa fa-yahoo"></i>
+				</a>
+				<a class="btn btn-xda"
+				   href="/login/xda-developers/?next=/listing/buy/LRNO44138" rel="nofollow" onclick="return gaLoginEvents('XDA Login');">
+					<img src="https://static.swappa.com/static/icons/xda_logo.png" style="padding:6px 3px;">
+				</a>
+			</div>
+
+			<script type="text/javascript">
+				// change kind of social buttons
+				(function($) {
+					var $window = $(window),
+						$html = $('a, div#customBtn', '#social-buttons');
+
+					function resize() {
+						//if (768-11 <= $window.width() && $window.width() < 992-11) {
+						//	return $html.removeClass('btn-social btn-block')
+						//			.addClass('btn-social-icon');
+						//} else {
+						//	$html.removeClass('btn-social-icon')
+						//			.addClass('btn-social btn-block');
+						//}
+						$('.btn-open-id').addClass("pull-right").removeClass("btn-social btn-block ");
+					}
+
+					$window
+						.resize(resize)
+						.trigger('resize');
+				})(jQuery);
+			</script>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-sm-10 col-md-offset-3 col-sm-offset-1">
+			<div class="row text-center" style="margin-top: 10px; font-size: 16px;">
+				Don't have an account?
+				<a href="/registration/register/" class="" onclick="return gaLoginEvents('Basic Auth Register');">
+					Sign Up
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-sm-10 col-md-offset-3 col-sm-offset-1">
+			<div class="row" style="margin-top: 10px; margin-bottom: 30px;">
+				<a href="/registration/recover/" class="btn btn-secondary">
+					Forgot Password
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+	<div id="recaptcha-mobile" class="g-recaptcha visible-xs"
+		data-sitekey="6Lc4lFYUAAAAADjsQB2zLd1HQTIWlgKNS23dOHKc"
+		data-callback="onSubmit"
+		data-badge="inline"
+		data-size="invisible"
+		style="margin:0 auto 10px auto; width: 256px; height:60px">
+	</div>
+	
+</div>
+
+
+</div>
+
+
+
+	<script>
+	(function() {
+
+		$("a[data-confirm]").on('click', function () {
+			var msg = $(this).data('confirm') || 'Are you sure?';
+			return confirm(msg);
+		});
+
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 65) {
+				$('.navbar').addClass('bordered');
+			} else {
+				$('.navbar').removeClass('bordered');
+			}
+		});
+
+		$('[data-toggle="popover"]').popover({container: 'body'})
+
+	  })();
+	</script>
+
+
+<footer>
+	<div class="container clearfix">
+		<div class="row">
+
+			<div class="col-xs-6 col-sm-2">
+				<!-- Buy -->
+				<ul>
+					<li><a href="/buy">Buy</a></li>
+					<li><a href="/buy/phones" title="Buy used phone">Buy Phones</a></li>
+					<li><a href="/buy/tablets" title="Tablets and iPads">Buy Tablets</a></li>
+					<li><a href="/laptops/macbooks" title="MacBooks for sale">Buy MacBooks</a></li>
+					<li><a href="/laptops" title="MacBooks, Chromebooks and Laptops">Buy Laptops</a></li>
+					<li><a href="/cameras" title="Used cameras and lenses">Buy Cameras</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/buy/iphones" title="Buy used iPhone">Buy iPhones</a></li>
+					<li><a href="/gaming" title="Video games and consoles">Buy Video Games</a></li>
+					<li><a href="/wearables" title="Watches and Wearables">Buy Watches & Wearables</a></li>
+					<li><a href="/home-tech" title="Smart Home Tech">Buy Home Tech</a></li>
+					<li><a href="/cheap-phones" title="Cheap phones">Cheap Phones</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Sell -->
+				<ul>
+					<li><a href="/sell">Sell</a></li>
+					<li><a href="/how-to-sell">How to Sell</a></li>
+					<li><a href="/sell/iphone" title="Sell used iPhone">Sell iPhones</a></li>
+					<li><a href="/sell/phone" title="Sell used smartphone">Sell Phone</a></li>
+					<li><a href="/sell/tablets" title="Sell iPad or tablet">Sell Tablet</a></li>
+					<li><a href="/sell/laptops" title="Sell MacBooks, Chromebooks and Laptops">Sell Laptop</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/phone-finder">Phone Finder</a></li>
+					<li><a href="/esn" title="IMEI check">IMEI / ESN Check</a></li>
+					<li><a href="/vs/ebay">Swappa vs. eBay</a></li>
+					<li><a href="/vs/craigslist">Swappa vs. Craigslist</a></li>
+					<li><a href="/affiliate">Affiliate Program</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Support -->
+				<ul>
+					<li><a href="/help">Help</a></li>
+					<li><a href="/faq">FAQs</a></li>
+					<li><a href="/data-services">Data Services</a></li>
+					<li><a href="/mobile-price-list" title="Used Mobile Price Lists">Price Lists</a></li>
+					<li><a href="/broken" title="Broken Phone Solutions">Broken, <a href="/repair" title="Repair Network">Repair</a></a>
+					<li><a href="/protection-plans" title="Used phone protection plans">Protection Plans</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- About -->
+				<ul>
+					<li><a href="/about">About Swappa</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/contact">Contact us</a></li>
+					<li><a href="/press">Press</a>, <a href="/reviews">Reviews</a></li>
+					<li><a href="/policies">Policies</a>, <a href="/fees">Fees</a></li>
+					<li><a href="/terms">Terms of Use</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-4">
+				<a href="/">
+					<img id="footer_logo" src="https://static.swappa.com/static/images/logos/swappa_footer.svg" alt="Swappa" style="margin-left: -11px; max-width: 200px;" />
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="social_links">
+					<a href="https://www.facebook.com/pages/Swappa/160481130660410" class="social"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/swappa" class="social"><i class="fa fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/swappa/" class="social"><i class="fa fa-instagram"></i></a>
+					<a href="https://plus.google.com/+Swappa" class="social"><i class="fa fa-google-plus-square"></i></a>
+					<a href="https://www.youtube.com/channel/UCMWoALjKAnY_eS65aPStyjQ" class="social"><i class="fa fa-youtube-square"></i></a>
+					<a href="https://in.pinterest.com/Swappa/" class="social"><i class="fa fa-pinterest-square"></i></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="copyright">
+					Copyright © 2010 - 2018 Swappa, LLC
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+	<li class="sortable-consent" style="display:none">
+    	<a href="javascript:window.deployads.showConsentTool()">Manage Consent</a>
+	</li>
+
+
+
+
+</body>
+</html>

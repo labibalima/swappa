@@ -1,0 +1,3598 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+
+	<title>Sell used Tablets phones - Swappa</title>
+	<meta name="description" content="Sell used Tablets phones and tablets for less with Swappa. Safety, simplicity, and staff-approved listings make Swappa the better place to buy." />
+	<meta name="keywords" content="Swappa, mobile, used, phone, smartphone, iPhone, tablet, device, buy, sell, sale, games, playstation, xbox, nintendo" />
+	<!-- Meta -->
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"d7e1fe928c","agent":"","transactionName":"YlYGY0UHW0YFWkIKVlscIkJZBUFcC1cZAUxMQAFbW0hDXAFORVlbQEoXUlsKalEBT18AXEZsFlJTD0dQB00=","applicationID":"2879586","errorBeacon":"bam.nr-data.net","applicationTime":1226}</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#009a44">
+	<!-- Fav Icon -->
+	<link rel="shortcut icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" title="Favicon" />
+	<link rel="icon" href="https://static.swappa.com/static/images/logos/favicon.png?v=2" />
+	<!-- Robots -->
+	
+	
+	
+	<meta name="Robots" content="index,follow" />
+	
+	
+	<!-- Misc -->
+	<meta name="google-site-verification" content="Av-kMi_k957YyPd7M0I_a2sn1GK4VyF7mEunnOiUacU" />
+	<link href="https://plus.google.com/+Swappa" rel="publisher" />
+	<!-- Open Graph -->
+	<meta property="og:app_id" content="128710807156604" />
+	<meta property="fb:app_id" content="128710807156604" />
+	<meta property="og:site_name" content="Swappa.com" />
+	<meta name="twitter:site" content="@swappa">
+	
+	<!-- Share -->
+	<meta property="og:url" content="https://swappa.com/sell/devices/tablets?platform=android" />
+	<meta name=”twitter:url” content="https://swappa.com/sell/devices/tablets?platform=android" />
+	
+	
+	<meta property="og:title" content="Sell used Tablets phones" />
+	<meta property="og:description" content="Sell used Tablets phones and tablets for less with Swappa. Safety, simplicity, and staff-approved listings make Swappa the better place to buy." />
+	<meta property="og:type" content="product" />
+	<meta property="og:url" content="https://swappa.com/sell/devices/tablets" />
+	
+	<meta property="og:image" content="https://static.swappa.com/images/cache/b8/6f/b86ffc74a3ee0715a07054fd0fbfdae4.png" />
+	
+
+
+	<!-- Stylesheets -->
+	
+	<!-- Google Fonts -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+	<!-- Bootstrap -->
+	<link href="https://static.swappa.com/static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://static.swappa.com/static/css/nwo-theme.css?20180608" rel="stylesheet">
+	<link href="https://static.swappa.com/static/css/style4.css?20180608" rel="stylesheet">
+	
+
+	
+	
+	<script>
+		var swappa_settings = { APP_MODE: "pro" };
+		if (swappa_settings.APP_MODE != 'pro') {
+			console.log("APP_MODE: " + swappa_settings.APP_MODE);
+		}
+	</script>
+	
+
+	<!-- Javascripts -->
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://static.swappa.com/static/js/html5shiv.js"></script>
+		<script src="https://static.swappa.com/static/js/respond.min.js"></script>
+	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap.js"></script>
+	<script src="https://static.swappa.com/static/bootstrap/js/bootstrap3-supplemental.js" type="text/javascript"></script>
+	<meta name="twitter:widgets:csp" content="on">
+
+	<script async src="https://static.swappa.com/static/js/search-base.js"></script>
+	<script async src="https://static.swappa.com/static/js/nav.js?20181120a"></script>
+
+	<!-- Search Typeahead -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
+	
+		<script async src="https://static.swappa.com/js/devices_typeahead.js?111218" type="text/javascript"></script>
+	
+	
+
+	
+	
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+	
+	<script type="text/javascript">
+		Vue.options.delimiters = ["[[", "]]"]
+	</script>
+	
+
+	
+	<!-- http://code.google.com/p/ie7-js/ -->
+	<!--[if lt IE 8]>
+	<script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js">var IE7_PNG_SUFFIX = ".png";</script>
+	<![endif]-->
+	
+
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-567TNCG');</script>
+	<!-- End Google Tag Manager -->
+	
+
+	
+	
+	<!-- Google Optimize -->
+	<style>.async-hide { opacity: 0 !important} </style>
+	<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+	})(window,document.documentElement,'async-hide','dataLayer',4000,
+	{'GTM-N23SSBG':true});</script>
+
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-501243-21', 'auto');
+	ga('require', 'GTM-N23SSBG'); <!-- Google Optimize -->
+	
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	
+	
+
+	
+		
+			<!-- Facebook Pixel Code -->
+			<script>
+			!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+			fbq('init', '941700869275696');
+			fbq('track', "PageView");
+			</script>
+			<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=941700869275696&ev=PageView&noscript=1"
+			/></noscript>
+			<!-- End Facebook Pixel Code -->
+		
+	
+
+	
+	
+
+	
+	
+	<script>
+	$(function() {
+
+		// tooltips
+		$(".has_tooltip").tooltip({
+			"container": "body"
+		});
+
+		// for messages
+		$(".messages .alert-error").addClass("alert-danger");
+
+		
+		$("input:not(.form-control)").each(function() {
+			if (jQuery.inArray($(this).attr("type"), ["file", "checkbox", "radio"]) == -1) {
+				$(this).addClass("form-control");
+			}
+		});
+
+	});
+
+	// GA events
+	$(function() {
+
+		// click to view a non-suggested listing
+		$(".top_nav_item > a").on("click", function(event) {
+			var text = $(this).text().trim();
+			ga("send", "event", "Site Nav", "Top Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+		$(".top_nav_item .dropdown-menu a").on("click", function(event) {
+			var top_text = $(this).parents(".top_nav_item").children("a").text().trim();
+			var drop_text = $(this).text().trim();
+			var text = top_text + " > " + drop_text;
+			ga("send", "event", "Site Nav", "Drop Click", text, 0, {transport: 'beacon'});
+			//event.preventDefault();
+		});
+
+	});
+	</script>
+	
+
+	<script type="text/javascript">
+		function nav_platform(slug) {
+			$("#list_form #id_platform").val(slug);
+			$("#list_form").submit();
+		}
+		function nav_type(slug) {
+			$("#list_form #id_type").val(slug);
+			$("#list_form").submit();
+		}
+		function nav_search(q) {
+			$("#list_form #id_search").val(q);
+			$("#list_form").submit();
+		}
+		function clear_search() {
+			nav_search("");
+		}
+
+		$(function() {
+
+			
+				$('#nav_type_').parent().hide();
+			
+
+			$("#list_form").submit(function() {
+				// disable (not submit) empty fields
+				$(this).children(':input[value=""]').attr("disabled", "disabled");
+			});
+
+			$("#sub_search_form").submit(function(e) {
+				var q = $("#sub_search_form #id_search").val();
+				nav_search(q);
+				e.preventDefault();
+			});
+
+			// nav
+			$("#nav_type_").addClass("active");
+			$("#nav_platform_android").addClass("active");
+
+		});
+	</script>
+
+	<style>
+		.pill_label {
+			padding: 5px 8px;
+			color: #555555;
+			background-color: #eeeeee;
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+		}
+		.nav-pills > li > a {
+			padding: 5px 8px;
+			border-radius: 0px;
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+		}
+	</style>
+
+
+
+</head>
+
+<body>
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-567TNCG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+	
+	<script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+	<script type="text/javascript">
+	  (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){
+	  (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');
+
+	  tap('create', '5852-29635f');
+	  tap('detect');
+	</script>
+
+
+<div id="wrap">
+
+
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#mobile-navbar-collapse-content" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/" title="Swappa" style="">
+				<img src="https://static.swappa.com/static/images/logos/logo_swappa_nav.svg" alt="Swappa Logo" />
+			</a>
+		</div>
+		<!-- Search bar -->
+		<div class="navbar-header">
+			<form id="header_search_form" class="navbar-form navbar-search navbar-left" role="search" action="/search" method="get">
+				<div class="input-group">
+					<div class="input-group">
+						<input type="text" name="q" id="id_q" class="form-control search_input" placeholder="Search for phones, tablets, laptops and more..." data-autocomplete-legacy="true" autocomplete="off" />
+						<span class="input-group-btn">
+							<button class="btn btn-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</span>
+					</div>
+					
+					
+					<ul class="search_suggestions dropdown-menu">
+						<li class="disabled" style="font-weight: 500;">
+							<a tabindex="-1" href="#">Trending Searches</a>
+						</li>
+						<li class="divider" style="margin: 3px 10px;"></li>
+						
+							<li>
+								<a href="/buy/apple-iphone-x" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone X
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel-xl" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel XL
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/google-pixel" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									Google Pixel
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-7-plus" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 7 Plus
+								</a>
+							</li>
+						
+							<li>
+								<a href="/buy/apple-iphone-6s" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-mobile" aria-hidden="true"></i>
+									&nbsp;
+									iPhone 6S
+								</a>
+							</li>
+						
+							<li>
+								<a href="/laptops/macbooks" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-laptop" aria-hidden="true"></i>
+									&nbsp;
+									MacBooks
+								</a>
+							</li>
+						
+							<li>
+								<a href="/cameras" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-search" aria-hidden="true"></i>
+									&nbsp;
+									Cameras
+								</a>
+							</li>
+						
+							<li>
+								<a href="/home-tech" class="suggested_search_link">
+									
+										<i class="fa fa-fw fa-home" aria-hidden="true"></i>
+									&nbsp;
+									Home Tech
+								</a>
+							</li>
+						
+					</ul>
+					
+				</div>
+			</form>
+		</div>
+
+		<div id="navbar-collapse-content" class="collapse navbar-collapse">
+
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li id="top_nav_sell" class="top_nav_item">
+					<a href="/sell" title="Sell" class="btn btn-default" style="padding: 8px 10px;">
+						Sell on Swappa
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_login" class="">
+					<a href="/login?next=/sell/devices/tablets?platform=android" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="top_nav_register" class="">
+					<a href="/registration/register/?next=/sell/devices/tablets?platform=android" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			
+				<li id="top_nav_cart" class="top_nav_item">
+					<a href="/cart" class="btn btn-default" style="padding: 8px 10px;" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						<sup>0</sup>
+					</a>
+				</li>
+			
+			</ul>
+
+			<div class="clearfix"></div>
+			<hr class="hidden-xs" style="margin: 0px;" />
+
+            
+                
+			    <ul id="nav_cat_bar" class="nav navbar-nav hidden-xs" style="width: 100%;">
+				<li id="top_nav_iphones" class="nav_bar_item" data-menu-slug="iphones">
+					<a href="/buy/iphones">
+						<i class="fa fa-apple"></i> iPhones
+					</a>
+				</li>
+				<li id="top_nav_phones" class="nav_bar_item" data-menu-slug="phones">
+					<a href="/buy/phones">
+						<i class="fa fa-mobile"></i> Phones
+					</a>
+				</li>
+				<li id="top_nav_laptops" class="nav_bar_item" data-menu-slug="laptops">
+					<a href="/laptops">
+						<i class="fa fa-laptop"></i> Laptops
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item" data-menu-slug="cameras">
+					<a href="/cameras">
+						<i class="fa fa-camera"></i> Cameras
+					</a>
+				</li>
+				<li id="top_nav_gaming" class="nav_bar_item hidden-sm" data-menu-slug="gaming">
+					<a href="/gaming">
+						<i class="fa fa-gamepad"></i> Video Games
+					</a>
+				</li>
+				<li id="top_nav_tablets" class="nav_bar_item hidden-sm" data-menu-slug="tablets">
+					<a href="/buy/tablets">
+						<i class="fa fa-tablet"></i> Tablets
+					</a>
+				</li>
+				<li id="top_nav_wearables" class="nav_bar_item visible-lg" data-menu-slug="wearables">
+					<a href="/wearables">
+						<i class="fa fa-clock-o"></i> Watches
+					</a>
+				</li>
+				<li id="top_nav_home_tech" class="nav_bar_item visible-lg" data-menu-slug="home_tech">
+					<a href="/home-tech">
+						<i class="fa fa-home"></i> Home Tech
+					</a>
+				</li>
+				<li id="top_nav_more" class="nav_bar_item dropdown">
+					<a href="/buy" class="dropdown-toggle" data-toggle="dropdown">
+						More <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="visible-sm" data-menu-slug="gaming">
+							<a href="/gaming">
+								<i class="fa fa-gamepad"></i> Video Games
+							</a>
+						</li>
+						<li class="visible-sm" data-menu-slug="tablets">
+							<a href="/buy/tablets">
+								<i class="fa fa-tablet"></i> Tablets
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="wearables">
+							<a href="/wearables">
+								<i class="fa fa-clock-o"></i> Watches + Wearable
+							</a>
+						</li>
+						<li class="hidden-lg" data-menu-slug="home_tech">
+							<a href="/home-tech">
+								<i class="fa fa-home"></i> Home Tech
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+            
+
+		</div>
+
+		<!-- MOBILE NAV -->
+		<div id="mobile-navbar-collapse-content" class="collapse navbar-collapse">
+
+			<ul id="mob_nav" class="nav navbar-nav visible-xs">
+			
+				<li id="mob_nav_cart" class="top_nav_item">
+					<a href="/cart" title="Shopping Cart">
+						<i class="fa fa-shopping-cart"></i>
+						Cart (#)
+					</a>
+				</li>
+			
+				<li id="mob_nav_buy">
+					<a href="/buy" title="Buy">
+						Buy <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_sell">
+					<a href="/sell" title="Sell">
+						Sell <i class="fa fa-caret-right"></i>
+					</a>
+				</li>
+				<li id="mob_nav_help">
+					<a href="/help" title="Help">
+						Help
+					</a>
+				</li>
+			
+				<li id="mob_nav_login">
+					<a href="/login?next=/sell/devices/tablets?platform=android" title="Login" rel="nofollow">
+						Login
+					</a>
+				</li>
+				<li id="mob_nav_register">
+					<a href="/registration/register/?next=/sell/devices/tablets?platform=android" title="Register" rel="nofollow">
+						Register
+					</a>
+				</li>
+			
+			</ul>
+
+		</div>
+
+	</div>
+</header>
+
+
+
+
+<div class="container">
+
+	
+	<div class="messages">
+	
+	</div>
+	
+
+	<section id="section_usp_bar">
+	
+	
+	<script>
+	$(function() {
+
+		//$('a[data-toggle="popover"]').popover({trigger: 'click'});
+
+		$("a.usp_item").click(function() {
+			var text = $(this).text().trim();
+			ga("send", "event", "USP Bar", "Click Item", text, 0);
+		});
+
+	});
+	</script>
+
+	<div id="usp_bar">
+		<div class="row">
+
+			<div class="hidden-sm hidden-xs col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Buy and sell directly" data-content="On Swappa you buy and sell directly with other users. Cutting out the middleman means you join a community market with the best prices and highest value.">
+					<i class="fa fa-handshake-o" aria-hidden="true"></i>
+					<p>People Powered</p>
+				</a>
+			</div>
+
+			<div class="col-xs-4 col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Buy and sell with confidence" data-content="We use PayPal for payments because they provide extensive buyer and seller protections. Get what was advertised or get a refund.">
+					<i class="fa fa-paypal" aria-hidden="true"></i>
+					<p>PayPal Protection</p>
+				</a>
+			</div>
+
+			<div class="col-xs-4 col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Only fully functional allowed" data-content="To keep our marketplace safe we don’t allow broken items. Every product has listing requirements and an approval process to ensure confident shopping.">
+					<i class="fa fa-ban" aria-hidden="true"></i>
+					<p>No Junk</p>
+				</a>
+			</div>
+
+			
+			<div class="col-xs-4 col-md-3">
+				<a class="usp_item" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="No surprise costs" data-content="Shipping costs are included in the listed price. You pay the price you see.">
+					<i class="fa fa-truck" aria-hidden="true"></i>
+					<p>Free Shipping</p>
+				</a>
+			</div>
+			
+
+		</div>
+	</div>
+
+	</section>
+
+	
+	<section id="breadcrumbs">
+	
+	<ul class="breadcrumb">
+		<li>
+			<a href="/">Swappa</a>
+		</li>
+		<li>
+			<a href="/mobile">Mobile</a>
+		</li>
+		
+			<li>
+				<a href="/sell">Sell</a>
+			</li>
+		
+		
+			<li>
+				<a href="/sell/devices/tablets">Tablets</a>
+			</li>
+		
+		
+		
+		
+		
+			<li class="active">
+				Platform: android
+			</li>
+		
+		
+		
+		
+	</ul>
+
+	</section>
+	
+
+	
+<section id="section_top" style="margin-bottom: 12px;">
+
+	<div class="row">
+		<div class="col-md-5">
+
+			<h1 style="margin: 0px 0px 3px 0px; white-space: nowrap;">
+				<span class="hidden-xs">Sell used </span>Tablets <small>Showing 60
+				 of 446</small>
+			</h1>
+
+		</div>
+		<div class="col-md-7">
+
+			
+
+		</div>
+	</div>
+
+</section>
+
+
+	
+<section id="section_billboard">
+
+	
+
+	<!-- Hidden Form -->
+	<div style="display: none;">
+		<form id="list_form" action="/sell/devices/tablets" method="get">
+			<tr><th><label for="id_market">Market:</label></th><td><select id="id_market" name="market">
+<option value="" selected="selected"></option>
+<option value="us">United States (US)</option>
+<option value="uk">United Kingdom (UK)</option>
+<option value="ca">Canada (CA)</option>
+<option value="eu">Europe (EU)</option>
+</select></td></tr>
+<tr><th><label for="id_provider">Provider:</label></th><td><input id="id_provider" name="provider" type="text" /></td></tr>
+<tr><th><label for="id_manufacturer">Manufacturer:</label></th><td><input id="id_manufacturer" name="manufacturer" type="text" /></td></tr>
+<tr><th><label for="id_search">Search:</label></th><td><input id="id_search" maxlength="100" name="search" type="text" /></td></tr>
+<tr><th><label for="id_priced_under">Priced under:</label></th><td><input id="id_priced_under" name="priced_under" type="number" /><input id="id_type" name="type" type="hidden" /><input id="id_platform" name="platform" type="hidden" value="android" /><input id="id_sort" name="sort" type="hidden" /></td></tr>
+		</form>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+
+			<form id="sub_search_form">
+				<div class="form-group" style="margin-bottom: 0px;">
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-search"></i>
+						</div>
+						<input type="text" id="id_search" name="search" class="form-control" placeholder="Search Tablets devices" value="" />
+						
+					</div>
+				</div>
+			</form>
+
+		</div>
+		<div class="col-md-8">
+
+			<div class="pull-right" style="margin-top: 3px; margin-left: 10px;">
+				<ul class="nav nav-pills">
+					<li class="pill_label">
+						Platform
+					</li>
+					<li role="presentation" id="nav_platform_">
+						<a href="javascript:nav_platform('');">
+							All
+						</a>
+					</li>
+					<li role="presentation" id="nav_platform_android">
+						<a href="javascript:nav_platform('android');">
+							<i class="fa fa-android"></i> <span class="hidden-xs">Android</span>
+						</a>
+					</li>
+					<li role="presentation" id="nav_platform_ios">
+						<a href="javascript:nav_platform('ios');">
+							<i class="fa fa-apple"></i> <span class="hidden-xs">iOS</span>
+						</a>
+					</li>
+					<li role="presentation" id="nav_platform_windows">
+						<a href="javascript:nav_platform('windows');">
+							<i class="fa fa-windows"></i> <span class="hidden-xs">Windows</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="pull-right" style="margin-top: 3px;">
+				<ul class="nav nav-pills">
+					<li class="pill_label">
+						Type
+					</li>
+					<li role="presentation" id="nav_type_">
+						<a href="javascript:nav_type('');">
+							All
+						</a>
+					</li>
+					<li role="presentation" id="nav_type_phone">
+						<a href="javascript:nav_type('phone');">
+							<i class="fa fa-mobile"></i> Phones
+						</a>
+					</li>
+					<li role="presentation" id="nav_type_tablet">
+						<a href="javascript:nav_type('tablet');">
+							<i class="fa fa-tablet"></i> Tablets
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<hr/>
+
+</section>
+
+
+	
+<section class="section_main" style="margin-top: 20px; min-height: 400px;">
+
+	
+		<div class="row dev_grid">
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="1">
+	
+	<a href="/sell/lg-g-pad-83-verizon" class="image" title="Used LG G Pad 8.3 (Verizon)">
+		<img src="https://static.swappa.com/images/cache/04/17/041784ef7798a54ca2ed6c2e644d9b7f.png" class="img-responsive" alt="LG G Pad 8.3" />
+	</a>
+	<a href="/sell/lg-g-pad-83-verizon" class="title" title="Buy used LG G Pad 8.3 (Verizon)">
+		LG G Pad 8.3
+		<nobr>(Verizon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/lg-g-pad-83-verizon" class="price">
+			
+				$<span>165</span>+
+			
+		</a>
+		<a href="/sell/lg-g-pad-83-verizon" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="1">
+	
+	<a href="/sell/samsung-galaxy-tab-2-101-verizon" class="image" title="Used Samsung Galaxy Tab 2 10.1 (Verizon)">
+		<img src="https://static.swappa.com/images/cache/93/6b/936b752a78087a534a8983a0e5f5b108.png" class="img-responsive" alt="Samsung Galaxy Tab 2 10.1" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-2-101-verizon" class="title" title="Buy used Samsung Galaxy Tab 2 10.1 (Verizon)">
+		Samsung Galaxy Tab 2 10.1
+		<nobr>(Verizon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-2-101-verizon" class="price">
+			
+				$<span>190</span>+
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-2-101-verizon" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="1">
+	
+	<a href="/sell/samsung-galaxy-tab-e-8-att" class="image" title="Used Samsung Galaxy Tab E 8.0 (AT&amp;T) [SM-T377A]">
+		<img src="https://static.swappa.com/images/cache/39/b3/39b378a10d44eca05ac969becf8d1476.png" class="img-responsive" alt="Samsung Galaxy Tab E 8.0" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-e-8-att" class="title" title="Buy used Samsung Galaxy Tab E 8.0 (AT&amp;T) [SM-T377A]">
+		Samsung Galaxy Tab E 8.0
+		<nobr>(AT&amp;T)</nobr>
+		<nobr>[SM-T377A]</nobr>
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-e-8-att" class="price">
+			
+				$<span>149</span>+
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-e-8-att" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="1">
+	
+	<a href="/sell/samsung-galaxy-tab-a-8-2017-wifi" class="image" title="Used Samsung Galaxy Tab A 8.0 2017 (Wi-Fi) [SM-T380]">
+		<img src="https://static.swappa.com/images/cache/da/66/da66c09ef771ff222a1a3caf24233fc7.png" class="img-responsive" alt="Samsung Galaxy Tab A 8.0 2017" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-a-8-2017-wifi" class="title" title="Buy used Samsung Galaxy Tab A 8.0 2017 (Wi-Fi) [SM-T380]">
+		Samsung Galaxy Tab A 8.0 2017
+		<nobr>(Wi-Fi)</nobr>
+		<nobr>[SM-T380]</nobr>
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-a-8-2017-wifi" class="price">
+			
+				$<span>150</span>+
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-a-8-2017-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-t-mobile" class="image" title="Used Samsung Galaxy Tab (T-Mobile)">
+		<img src="https://static.swappa.com/images/cache/4b/ac/4bac062bc764b011452f7eea3a2ca989.png" class="img-responsive" alt="Samsung Galaxy Tab" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-t-mobile" class="title" title="Buy used Samsung Galaxy Tab (T-Mobile)">
+		Samsung Galaxy Tab
+		<nobr>(T-Mobile)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-t-mobile" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-t-mobile" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-sprint" class="image" title="Used Samsung Galaxy Tab (Sprint)">
+		<img src="https://static.swappa.com/images/cache/4b/ac/4bac062bc764b011452f7eea3a2ca989.png" class="img-responsive" alt="Samsung Galaxy Tab" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-sprint" class="title" title="Buy used Samsung Galaxy Tab (Sprint)">
+		Samsung Galaxy Tab
+		<nobr>(Sprint)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-sprint" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-sprint" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-verizon" class="image" title="Used Samsung Galaxy Tab (Verizon)">
+		<img src="https://static.swappa.com/images/cache/4b/ac/4bac062bc764b011452f7eea3a2ca989.png" class="img-responsive" alt="Samsung Galaxy Tab" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-verizon" class="title" title="Buy used Samsung Galaxy Tab (Verizon)">
+		Samsung Galaxy Tab
+		<nobr>(Verizon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-verizon" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-verizon" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/viewsonic-gtablet" class="image" title="Used Viewsonic gTablet (Other)">
+		<img src="https://static.swappa.com/images/cache/12/8b/128b95b8c87c87ae9b81e7b272d3660b.png" class="img-responsive" alt="Viewsonic gTablet" />
+	</a>
+	<a href="/sell/viewsonic-gtablet" class="title" title="Buy used Viewsonic gTablet (Other)">
+		Viewsonic gTablet
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/viewsonic-gtablet" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/viewsonic-gtablet" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/archos-101" class="image" title="Used Archos 101 (Other)">
+		<img src="https://static.swappa.com/images/cache/85/c8/85c8b3328033d39f4be21148cacb42c2.png" class="img-responsive" alt="Archos 101" />
+	</a>
+	<a href="/sell/archos-101" class="title" title="Buy used Archos 101 (Other)">
+		Archos 101
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/archos-101" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/archos-101" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/motorola-xoom-verizon" class="image" title="Used Motorola XOOM (Verizon)">
+		<img src="https://static.swappa.com/images/cache/73/43/7343acdc43ceede08c2f0ff7c08d88ba.png" class="img-responsive" alt="Motorola XOOM" />
+	</a>
+	<a href="/sell/motorola-xoom-verizon" class="title" title="Buy used Motorola XOOM (Verizon)">
+		Motorola XOOM
+		<nobr>(Verizon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/motorola-xoom-verizon" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/motorola-xoom-verizon" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/nook-color" class="image" title="Used Nook Color (Other)">
+		<img src="https://static.swappa.com/images/cache/92/9e/929edd43cc67b0765cc2c90036a694ce.png" class="img-responsive" alt="Nook Color" />
+	</a>
+	<a href="/sell/nook-color" class="title" title="Buy used Nook Color (Other)">
+		Nook Color
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/nook-color" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/nook-color" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/dell-streak-7-t-mobile" class="image" title="Used Dell Streak 7 (T-Mobile)">
+		<img src="https://static.swappa.com/images/cache/34/76/3476136345f444bd689a266442c5e33b.png" class="img-responsive" alt="Dell Streak 7" />
+	</a>
+	<a href="/sell/dell-streak-7-t-mobile" class="title" title="Buy used Dell Streak 7 (T-Mobile)">
+		Dell Streak 7
+		<nobr>(T-Mobile)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/dell-streak-7-t-mobile" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/dell-streak-7-t-mobile" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/archos-5" class="image" title="Used Archos 5 (Other)">
+		<img src="https://static.swappa.com/images/cache/9e/4e/9e4e00284543379a74f3c91aba41d052.png" class="img-responsive" alt="Archos 5" />
+	</a>
+	<a href="/sell/archos-5" class="title" title="Buy used Archos 5 (Other)">
+		Archos 5
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/archos-5" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/archos-5" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/epad-t1" class="image" title="Used Epad T1 (Other)">
+		<img src="https://static.swappa.com/images/cache/bb/84/bb8431897c524737a3e8637a2ac89360.png" class="img-responsive" alt="Epad T1" />
+	</a>
+	<a href="/sell/epad-t1" class="title" title="Buy used Epad T1 (Other)">
+		Epad T1
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/epad-t1" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/epad-t1" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/notion-ink-adam" class="image" title="Used Notion Ink Adam (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/b2/16/b216082dee297b4d8b170e8de2ef5fc2.png" class="img-responsive" alt="Notion Ink Adam" />
+	</a>
+	<a href="/sell/notion-ink-adam" class="title" title="Buy used Notion Ink Adam (Wi-Fi)">
+		Notion Ink Adam
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/notion-ink-adam" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/notion-ink-adam" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-att" class="image" title="Used Samsung Galaxy Tab (AT&amp;T)">
+		<img src="https://static.swappa.com/images/cache/4b/ac/4bac062bc764b011452f7eea3a2ca989.png" class="img-responsive" alt="Samsung Galaxy Tab" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-att" class="title" title="Buy used Samsung Galaxy Tab (AT&amp;T)">
+		Samsung Galaxy Tab
+		<nobr>(AT&amp;T)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-att" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-att" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/archos-70" class="image" title="Used Archos 70 (Other)">
+		<img src="https://static.swappa.com/images/cache/96/de/96decbcac4c5f88227d4810977931e8b.png" class="img-responsive" alt="Archos 70" />
+	</a>
+	<a href="/sell/archos-70" class="title" title="Buy used Archos 70 (Other)">
+		Archos 70
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/archos-70" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/archos-70" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/archos-7" class="image" title="Used Archos 7 (Other)">
+		<img src="https://static.swappa.com/images/cache/35/90/359066f135e8c4f4f8fc0e906206b49a.png" class="img-responsive" alt="Archos 7" />
+	</a>
+	<a href="/sell/archos-7" class="title" title="Buy used Archos 7 (Other)">
+		Archos 7
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/archos-7" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/archos-7" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-101-le" class="image" title="Used Samsung Galaxy Tab 10.1 (LE) (Google)">
+		<img src="https://static.swappa.com/images/cache/2e/d4/2ed42fa44b5a1ec26f348a348a9b90b3.png" class="img-responsive" alt="Samsung Galaxy Tab 10.1 (LE)" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-101-le" class="title" title="Buy used Samsung Galaxy Tab 10.1 (LE) (Google)">
+		Samsung Galaxy Tab 10.1 (LE)
+		<nobr>(Google)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-101-le" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-101-le" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/motorola-xoom-wifi" class="image" title="Used Motorola XOOM (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/73/43/7343acdc43ceede08c2f0ff7c08d88ba.png" class="img-responsive" alt="Motorola XOOM" />
+	</a>
+	<a href="/sell/motorola-xoom-wifi" class="title" title="Buy used Motorola XOOM (Wi-Fi)">
+		Motorola XOOM
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/motorola-xoom-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/motorola-xoom-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/asus-eee-pad-transformer-tf101" class="image" title="Used Asus Eee Pad Transformer TF101 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/d7/9a/d79ad203a489bb7bb3607430cf81cf54.png" class="img-responsive" alt="Asus Eee Pad Transformer TF101" />
+	</a>
+	<a href="/sell/asus-eee-pad-transformer-tf101" class="title" title="Buy used Asus Eee Pad Transformer TF101 (Wi-Fi)">
+		Asus Eee Pad Transformer TF101
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/asus-eee-pad-transformer-tf101" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/asus-eee-pad-transformer-tf101" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-wifi" class="image" title="Used Samsung Galaxy Tab Wi-Fi (Other)">
+		<img src="https://static.swappa.com/images/cache/4b/ac/4bac062bc764b011452f7eea3a2ca989.png" class="img-responsive" alt="Samsung Galaxy Tab Wi-Fi" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-wifi" class="title" title="Buy used Samsung Galaxy Tab Wi-Fi (Other)">
+		Samsung Galaxy Tab Wi-Fi
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-gsm" class="image" title="Used Samsung Galaxy Tab GSM (Unlocked)">
+		<img src="https://static.swappa.com/images/cache/4b/ac/4bac062bc764b011452f7eea3a2ca989.png" class="img-responsive" alt="Samsung Galaxy Tab GSM" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-gsm" class="title" title="Buy used Samsung Galaxy Tab GSM (Unlocked)">
+		Samsung Galaxy Tab GSM
+		<nobr>(Unlocked)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-gsm" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-gsm" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/maylong-m150-universe" class="image" title="Used Maylong m150 Universe (Other)">
+		<img src="https://static.swappa.com/images/cache/fd/cc/fdcc00f695333703ab51d2ce4ea7ea45.png" class="img-responsive" alt="Maylong m150 Universe" />
+	</a>
+	<a href="/sell/maylong-m150-universe" class="title" title="Buy used Maylong m150 Universe (Other)">
+		Maylong m150 Universe
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/maylong-m150-universe" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/maylong-m150-universe" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/toshiba-thrive-10" class="image" title="Used Toshiba Thrive 10 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/9e/c5/9ec5047a681df7a46cd08cf2a3d8d7a5.png" class="img-responsive" alt="Toshiba Thrive 10" />
+	</a>
+	<a href="/sell/toshiba-thrive-10" class="title" title="Buy used Toshiba Thrive 10 (Wi-Fi)">
+		Toshiba Thrive 10
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/toshiba-thrive-10" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/toshiba-thrive-10" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/acer-iconia-tab-a500" class="image" title="Used Acer Iconia Tab A500 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/a8/db/a8db1cd4f2a67fdde751f461e890474d.png" class="img-responsive" alt="Acer Iconia Tab A500" />
+	</a>
+	<a href="/sell/acer-iconia-tab-a500" class="title" title="Buy used Acer Iconia Tab A500 (Wi-Fi)">
+		Acer Iconia Tab A500
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/acer-iconia-tab-a500" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/acer-iconia-tab-a500" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/t-mobile-g-slate" class="image" title="Used T-Mobile G-Slate (T-Mobile)">
+		<img src="https://static.swappa.com/images/cache/c9/79/c97901e30c2fcd3ddd6806d2bf9eb41f.png" class="img-responsive" alt="T-Mobile G-Slate" />
+	</a>
+	<a href="/sell/t-mobile-g-slate" class="title" title="Buy used T-Mobile G-Slate (T-Mobile)">
+		T-Mobile G-Slate
+		<nobr>(T-Mobile)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/t-mobile-g-slate" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/t-mobile-g-slate" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-101-verizon" class="image" title="Used Samsung Galaxy Tab 10.1 (Verizon)">
+		<img src="https://static.swappa.com/images/cache/2e/d4/2ed42fa44b5a1ec26f348a348a9b90b3.png" class="img-responsive" alt="Samsung Galaxy Tab 10.1" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-101-verizon" class="title" title="Buy used Samsung Galaxy Tab 10.1 (Verizon)">
+		Samsung Galaxy Tab 10.1
+		<nobr>(Verizon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-101-verizon" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-101-verizon" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-101-wifi" class="image" title="Used Samsung Galaxy Tab 10.1 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/2e/d4/2ed42fa44b5a1ec26f348a348a9b90b3.png" class="img-responsive" alt="Samsung Galaxy Tab 10.1" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-101-wifi" class="title" title="Buy used Samsung Galaxy Tab 10.1 (Wi-Fi)">
+		Samsung Galaxy Tab 10.1
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-101-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-101-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/htc-flyer-wifi" class="image" title="Used HTC Flyer WiFi (Other)">
+		<img src="https://static.swappa.com/images/cache/d7/b5/d7b5afe1f7a2266e7f6b21b36e367de2.png" class="img-responsive" alt="HTC Flyer WiFi" />
+	</a>
+	<a href="/sell/htc-flyer-wifi" class="title" title="Buy used HTC Flyer WiFi (Other)">
+		HTC Flyer WiFi
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/htc-flyer-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/htc-flyer-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/hp-touchpad" class="image" title="Used HP TouchPad (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/30/ec/30ec03769832856d8292116e74097cb6.png" class="img-responsive" alt="HP TouchPad" />
+	</a>
+	<a href="/sell/hp-touchpad" class="title" title="Buy used HP TouchPad (Wi-Fi)">
+		HP TouchPad
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/hp-touchpad" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/hp-touchpad" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-70-plus-wifi" class="image" title="Used Samsung Galaxy Tab 7.0 Plus (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/99/f2/99f2dd3df54da76c27ff975ca7262a93.png" class="img-responsive" alt="Samsung Galaxy Tab 7.0 Plus" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-70-plus-wifi" class="title" title="Buy used Samsung Galaxy Tab 7.0 Plus (Wi-Fi)">
+		Samsung Galaxy Tab 7.0 Plus
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-70-plus-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-70-plus-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-70-plus-tmobile" class="image" title="Used Samsung Galaxy Tab 7.0 Plus (T-Mobile)">
+		<img src="https://static.swappa.com/images/cache/99/f2/99f2dd3df54da76c27ff975ca7262a93.png" class="img-responsive" alt="Samsung Galaxy Tab 7.0 Plus" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-70-plus-tmobile" class="title" title="Buy used Samsung Galaxy Tab 7.0 Plus (T-Mobile)">
+		Samsung Galaxy Tab 7.0 Plus
+		<nobr>(T-Mobile)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-70-plus-tmobile" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-70-plus-tmobile" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/amazon-kindle-fire" class="image" title="Used Amazon Kindle Fire (Amazon)">
+		<img src="https://static.swappa.com/images/cache/26/93/2693d7ce3f6d357265653902b5f3fb4f.png" class="img-responsive" alt="Amazon Kindle Fire" />
+	</a>
+	<a href="/sell/amazon-kindle-fire" class="title" title="Buy used Amazon Kindle Fire (Amazon)">
+		Amazon Kindle Fire
+		<nobr>(Amazon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/amazon-kindle-fire" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/amazon-kindle-fire" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-note-unlocked" class="image" title="Used Samsung Galaxy Note (Unlocked)">
+		<img src="https://static.swappa.com/images/cache/18/72/187228894ea6c946281ed70f2e2cbab5.png" class="img-responsive" alt="Samsung Galaxy Note" />
+	</a>
+	<a href="/sell/samsung-galaxy-note-unlocked" class="title" title="Buy used Samsung Galaxy Note (Unlocked)">
+		Samsung Galaxy Note
+		<nobr>(Unlocked)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-note-unlocked" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-note-unlocked" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/htc-evo-view-4g-sprint" class="image" title="Used HTC EVO View 4G (Sprint)">
+		<img src="https://static.swappa.com/images/cache/d5/7c/d57c64db1e8cd90092b500435e738547.png" class="img-responsive" alt="HTC EVO View 4G" />
+	</a>
+	<a href="/sell/htc-evo-view-4g-sprint" class="title" title="Buy used HTC EVO View 4G (Sprint)">
+		HTC EVO View 4G
+		<nobr>(Sprint)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/htc-evo-view-4g-sprint" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/htc-evo-view-4g-sprint" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/asus-eee-pad-transformer-prime-tf201" class="image" title="Used Asus Eee Pad Transformer Prime TF201 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/d7/1b/d71b32d242c853f861c03707a576712c.png" class="img-responsive" alt="Asus Eee Pad Transformer Prime TF201" />
+	</a>
+	<a href="/sell/asus-eee-pad-transformer-prime-tf201" class="title" title="Buy used Asus Eee Pad Transformer Prime TF201 (Wi-Fi)">
+		Asus Eee Pad Transformer Prime TF201
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/asus-eee-pad-transformer-prime-tf201" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/asus-eee-pad-transformer-prime-tf201" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/acer-iconia-tab-a100" class="image" title="Used Acer Iconia Tab A100 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/95/3b/953b36e7d02efdcbef1249f6263dfeb1.png" class="img-responsive" alt="Acer Iconia Tab A100" />
+	</a>
+	<a href="/sell/acer-iconia-tab-a100" class="title" title="Buy used Acer Iconia Tab A100 (Wi-Fi)">
+		Acer Iconia Tab A100
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/acer-iconia-tab-a100" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/acer-iconia-tab-a100" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/motorola-xoom-family-edition" class="image" title="Used Motorola XOOM Family Edition (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/73/43/7343acdc43ceede08c2f0ff7c08d88ba.png" class="img-responsive" alt="Motorola XOOM Family Edition" />
+	</a>
+	<a href="/sell/motorola-xoom-family-edition" class="title" title="Buy used Motorola XOOM Family Edition (Wi-Fi)">
+		Motorola XOOM Family Edition
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/motorola-xoom-family-edition" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/motorola-xoom-family-edition" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-89-wifi" class="image" title="Used Samsung Galaxy Tab 8.9 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/2e/d4/2ed42fa44b5a1ec26f348a348a9b90b3.png" class="img-responsive" alt="Samsung Galaxy Tab 8.9" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-89-wifi" class="title" title="Buy used Samsung Galaxy Tab 8.9 (Wi-Fi)">
+		Samsung Galaxy Tab 8.9
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-89-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-89-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/htc-jetstream-att" class="image" title="Used HTC Jetstream (AT&amp;T)">
+		<img src="https://static.swappa.com/images/cache/96/6f/966f2d16a8134f5820affeca8a5584e6.png" class="img-responsive" alt="HTC Jetstream" />
+	</a>
+	<a href="/sell/htc-jetstream-att" class="title" title="Buy used HTC Jetstream (AT&amp;T)">
+		HTC Jetstream
+		<nobr>(AT&amp;T)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/htc-jetstream-att" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/htc-jetstream-att" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/pantech-element-att" class="image" title="Used Pantech Element (AT&amp;T)">
+		<img src="https://static.swappa.com/images/cache/b1/e5/b1e5c7f09f174b31883a06983cd22666.png" class="img-responsive" alt="Pantech Element" />
+	</a>
+	<a href="/sell/pantech-element-att" class="title" title="Buy used Pantech Element (AT&amp;T)">
+		Pantech Element
+		<nobr>(AT&amp;T)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/pantech-element-att" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/pantech-element-att" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/asus-slider" class="image" title="Used Asus Slider (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/4b/ac/4bac2c6d33393fa6477d42b3fa3e90ad.png" class="img-responsive" alt="Asus Slider" />
+	</a>
+	<a href="/sell/asus-slider" class="title" title="Buy used Asus Slider (Wi-Fi)">
+		Asus Slider
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/asus-slider" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/asus-slider" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/motorola-droid-xyboard-82-wifi" class="image" title="Used Motorola Droid Xyboard 8.2 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/73/0f/730fd5b3de9cbefac1b8fc05b1145a88.png" class="img-responsive" alt="Motorola Droid Xyboard 8.2" />
+	</a>
+	<a href="/sell/motorola-droid-xyboard-82-wifi" class="title" title="Buy used Motorola Droid Xyboard 8.2 (Wi-Fi)">
+		Motorola Droid Xyboard 8.2
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/motorola-droid-xyboard-82-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/motorola-droid-xyboard-82-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/motorola-droid-xyboard-82-verizon" class="image" title="Used Motorola Droid Xyboard 8.2 (Verizon)">
+		<img src="https://static.swappa.com/images/cache/73/0f/730fd5b3de9cbefac1b8fc05b1145a88.png" class="img-responsive" alt="Motorola Droid Xyboard 8.2" />
+	</a>
+	<a href="/sell/motorola-droid-xyboard-82-verizon" class="title" title="Buy used Motorola Droid Xyboard 8.2 (Verizon)">
+		Motorola Droid Xyboard 8.2
+		<nobr>(Verizon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/motorola-droid-xyboard-82-verizon" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/motorola-droid-xyboard-82-verizon" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/motorola-droid-xyboard-101-wifi" class="image" title="Used Motorola Droid Xyboard 10.1 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/0f/63/0f6351d765f48868a9d498d78cc7bdf8.png" class="img-responsive" alt="Motorola Droid Xyboard 10.1" />
+	</a>
+	<a href="/sell/motorola-droid-xyboard-101-wifi" class="title" title="Buy used Motorola Droid Xyboard 10.1 (Wi-Fi)">
+		Motorola Droid Xyboard 10.1
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/motorola-droid-xyboard-101-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/motorola-droid-xyboard-101-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/motorola-droid-xyboard-101-verizon" class="image" title="Used Motorola Droid Xyboard 10.1 (Verizon)">
+		<img src="https://static.swappa.com/images/cache/0f/63/0f6351d765f48868a9d498d78cc7bdf8.png" class="img-responsive" alt="Motorola Droid Xyboard 10.1" />
+	</a>
+	<a href="/sell/motorola-droid-xyboard-101-verizon" class="title" title="Buy used Motorola Droid Xyboard 10.1 (Verizon)">
+		Motorola Droid Xyboard 10.1
+		<nobr>(Verizon)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/motorola-droid-xyboard-101-verizon" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/motorola-droid-xyboard-101-verizon" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/sony-tablet-s" class="image" title="Used Sony Tablet S (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/81/92/819206c542851f62818fa55cf34e8c03.png" class="img-responsive" alt="Sony Tablet S" />
+	</a>
+	<a href="/sell/sony-tablet-s" class="title" title="Buy used Sony Tablet S (Wi-Fi)">
+		Sony Tablet S
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/sony-tablet-s" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/sony-tablet-s" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/nook-tablet" class="image" title="Used Nook Tablet (Other)">
+		<img src="https://static.swappa.com/images/cache/ae/81/ae815408e026d34a13d25aabdf1bb65a.png" class="img-responsive" alt="Nook Tablet" />
+	</a>
+	<a href="/sell/nook-tablet" class="title" title="Buy used Nook Tablet (Other)">
+		Nook Tablet
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/nook-tablet" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/nook-tablet" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-2-70-wifi" class="image" title="Used Samsung Galaxy Tab 2 7.0 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/bd/ac/bdaca9ecfa492c612cb5eb16cbdf5fe9.png" class="img-responsive" alt="Samsung Galaxy Tab 2 7.0" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-2-70-wifi" class="title" title="Buy used Samsung Galaxy Tab 2 7.0 (Wi-Fi)">
+		Samsung Galaxy Tab 2 7.0
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-2-70-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-2-70-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-2-101-wifi" class="image" title="Used Samsung Galaxy Tab 2 10.1 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/93/6b/936b752a78087a534a8983a0e5f5b108.png" class="img-responsive" alt="Samsung Galaxy Tab 2 10.1" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-2-101-wifi" class="title" title="Buy used Samsung Galaxy Tab 2 10.1 (Wi-Fi)">
+		Samsung Galaxy Tab 2 10.1
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-2-101-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-2-101-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/asus-transformer-pad-tf300" class="image" title="Used Asus Transformer Pad TF300 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/8b/79/8b79d02409ea068dd1fa4748f1cd75b7.png" class="img-responsive" alt="Asus Transformer Pad TF300" />
+	</a>
+	<a href="/sell/asus-transformer-pad-tf300" class="title" title="Buy used Asus Transformer Pad TF300 (Wi-Fi)">
+		Asus Transformer Pad TF300
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/asus-transformer-pad-tf300" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/asus-transformer-pad-tf300" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/archos-80-g9-turbo" class="image" title="Used Archos 80 G9 Turbo (Other)">
+		<img src="https://static.swappa.com/images/cache/82/55/8255f82857f5c6198a3b2645e2e96e7a.png" class="img-responsive" alt="Archos 80 G9 Turbo" />
+	</a>
+	<a href="/sell/archos-80-g9-turbo" class="title" title="Buy used Archos 80 G9 Turbo (Other)">
+		Archos 80 G9 Turbo
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/archos-80-g9-turbo" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/archos-80-g9-turbo" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-77" class="image" title="Used Samsung Galaxy Tab 7.7 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/29/44/2944ab30c5593864ca911613c241b8d4.png" class="img-responsive" alt="Samsung Galaxy Tab 7.7" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-77" class="title" title="Buy used Samsung Galaxy Tab 7.7 (Wi-Fi)">
+		Samsung Galaxy Tab 7.7
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-77" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-77" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/acer-iconia-tab-a200" class="image" title="Used Acer Iconia Tab A200 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/7e/6c/7e6c1cf3d732e7418440e5d317f4fbb9.png" class="img-responsive" alt="Acer Iconia Tab A200" />
+	</a>
+	<a href="/sell/acer-iconia-tab-a200" class="title" title="Buy used Acer Iconia Tab A200 (Wi-Fi)">
+		Acer Iconia Tab A200
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/acer-iconia-tab-a200" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/acer-iconia-tab-a200" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-101-tmobile" class="image" title="Used Samsung Galaxy Tab 10.1 (T-Mobile)">
+		<img src="https://static.swappa.com/images/cache/2e/d4/2ed42fa44b5a1ec26f348a348a9b90b3.png" class="img-responsive" alt="Samsung Galaxy Tab 10.1" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-101-tmobile" class="title" title="Buy used Samsung Galaxy Tab 10.1 (T-Mobile)">
+		Samsung Galaxy Tab 10.1
+		<nobr>(T-Mobile)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-101-tmobile" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-101-tmobile" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/nexus-7-wifi" class="image" title="Used Nexus 7 2012 (Wi-Fi)">
+		<img src="https://static.swappa.com/images/cache/66/65/66654192cfba2469c0f0730c8a37bac1.png" class="img-responsive" alt="Nexus 7 2012" />
+	</a>
+	<a href="/sell/nexus-7-wifi" class="title" title="Buy used Nexus 7 2012 (Wi-Fi)">
+		Nexus 7 2012
+		<nobr>(Wi-Fi)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/nexus-7-wifi" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/nexus-7-wifi" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/lenovo-thinkpad-tablet" class="image" title="Used Lenovo Thinkpad Tablet (Other)">
+		<img src="https://static.swappa.com/images/cache/4f/bc/4fbc5e87595fc90727c6c77af93cb1f7.png" class="img-responsive" alt="Lenovo Thinkpad Tablet" />
+	</a>
+	<a href="/sell/lenovo-thinkpad-tablet" class="title" title="Buy used Lenovo Thinkpad Tablet (Other)">
+		Lenovo Thinkpad Tablet
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/lenovo-thinkpad-tablet" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/lenovo-thinkpad-tablet" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/lenovo-ideapad-k1" class="image" title="Used Lenovo IdeaPad K1 (Other)">
+		<img src="https://static.swappa.com/images/cache/94/34/94340eb6e614f55d341c7569910de2ac.png" class="img-responsive" alt="Lenovo IdeaPad K1" />
+	</a>
+	<a href="/sell/lenovo-ideapad-k1" class="title" title="Buy used Lenovo IdeaPad K1 (Other)">
+		Lenovo IdeaPad K1
+		<nobr>(Other)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/lenovo-ideapad-k1" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/lenovo-ideapad-k1" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+				
+
+
+
+
+
+
+	
+		
+	
+
+
+<div class="cell_product device" data-alc="0">
+	
+	<a href="/sell/samsung-galaxy-tab-89-gsm" class="image" title="Used Samsung Galaxy Tab 8.9 GSM (Unlocked)">
+		<img src="https://static.swappa.com/images/cache/2e/d4/2ed42fa44b5a1ec26f348a348a9b90b3.png" class="img-responsive" alt="Samsung Galaxy Tab 8.9 GSM" />
+	</a>
+	<a href="/sell/samsung-galaxy-tab-89-gsm" class="title" title="Buy used Samsung Galaxy Tab 8.9 GSM (Unlocked)">
+		Samsung Galaxy Tab 8.9 GSM
+		<nobr>(Unlocked)</nobr>
+		
+	</a>
+	<div class="cell_footer" style="margin-top: 8px;">
+		<a href="/sell/samsung-galaxy-tab-89-gsm" class="price">
+			
+				<span class="none"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+			
+		</a>
+		<a href="/sell/samsung-galaxy-tab-89-gsm" class="icons">
+			<span class="hidden">
+			<i class="fa fa-tablet"></i>
+			</span>
+			<span>
+			<i class="fa fa-android"></i>
+			</span>
+		</a>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+			</div>
+		
+		</div>
+	
+
+	
+		<div class="pull-right">
+			
+<ul class="pagination">
+
+     <li class="disabled">
+        <a title="First Page" href="?platform=android&page=1">First</a>
+     </li>
+
+
+    <li class="disabled">
+        <a title="Previous Page" href="#">&laquo;</a>
+    </li>
+
+
+    
+        <li class="active">
+            <a title="Current Page" href="#">1</a>
+        </li>
+    
+
+    
+        <li>
+            <a title="Page 2 of 8" href="?platform=android&page=2">2</a>
+        </li>
+    
+
+    
+        <li>
+            <a title="Page 3 of 8" href="?platform=android&page=3">3</a>
+        </li>
+    
+
+    
+        <li>
+            <a title="Page 4 of 8" href="?platform=android&page=4">4</a>
+        </li>
+    
+
+    
+        <li>
+            <a title="Page 5 of 8" href="?platform=android&page=5">5</a>
+        </li>
+    
+
+    
+        <li>
+            <a title="Page 6 of 8" href="?platform=android&page=6">6</a>
+        </li>
+    
+
+    
+        <li>
+            <a title="Page 7 of 8" href="?platform=android&page=7">7</a>
+        </li>
+    
+
+    
+        <li>
+            <a title="Page 8 of 8" href="?platform=android&page=8">8</a>
+        </li>
+    
+
+
+    <li >
+        <a title="Next Page" href="?platform=android&page=2">&raquo;</a>
+    </li>
+
+
+    <li >
+        <a title="Last Page" href="?platform=android&page=8">Last</a>
+    </li>
+
+</ul>
+		</div>
+	
+
+</section>
+
+
+	
+
+	
+
+</div> <!-- end container -->
+
+
+</div>
+
+
+
+	<script>
+	(function() {
+
+		$("a[data-confirm]").on('click', function () {
+			var msg = $(this).data('confirm') || 'Are you sure?';
+			return confirm(msg);
+		});
+
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 65) {
+				$('.navbar').addClass('bordered');
+			} else {
+				$('.navbar').removeClass('bordered');
+			}
+		});
+
+		$('[data-toggle="popover"]').popover({container: 'body'})
+
+	  })();
+	</script>
+
+
+<footer>
+	<div class="container clearfix">
+		<div class="row">
+
+			<div class="col-xs-6 col-sm-2">
+				<!-- Buy -->
+				<ul>
+					<li><a href="/buy">Buy</a></li>
+					<li><a href="/buy/phones" title="Buy used phone">Buy Phones</a></li>
+					<li><a href="/buy/tablets" title="Tablets and iPads">Buy Tablets</a></li>
+					<li><a href="/laptops/macbooks" title="MacBooks for sale">Buy MacBooks</a></li>
+					<li><a href="/laptops" title="MacBooks, Chromebooks and Laptops">Buy Laptops</a></li>
+					<li><a href="/cameras" title="Used cameras and lenses">Buy Cameras</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/buy/iphones" title="Buy used iPhone">Buy iPhones</a></li>
+					<li><a href="/gaming" title="Video games and consoles">Buy Video Games</a></li>
+					<li><a href="/wearables" title="Watches and Wearables">Buy Watches & Wearables</a></li>
+					<li><a href="/home-tech" title="Smart Home Tech">Buy Home Tech</a></li>
+					<li><a href="/cheap-phones" title="Cheap phones">Cheap Phones</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Sell -->
+				<ul>
+					<li><a href="/sell">Sell</a></li>
+					<li><a href="/how-to-sell">How to Sell</a></li>
+					<li><a href="/sell/iphone" title="Sell used iPhone">Sell iPhones</a></li>
+					<li><a href="/sell/phone" title="Sell used smartphone">Sell Phone</a></li>
+					<li><a href="/sell/tablets" title="Sell iPad or tablet">Sell Tablet</a></li>
+					<li><a href="/sell/laptops" title="Sell MacBooks, Chromebooks and Laptops">Sell Laptop</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<ul>
+					<li><a href="/phone-finder">Phone Finder</a></li>
+					<li><a href="/esn" title="IMEI check">IMEI / ESN Check</a></li>
+					<li><a href="/vs/ebay">Swappa vs. eBay</a></li>
+					<li><a href="/vs/craigslist">Swappa vs. Craigslist</a></li>
+					<li><a href="/affiliate">Affiliate Program</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- Support -->
+				<ul>
+					<li><a href="/help">Help</a></li>
+					<li><a href="/faq">FAQs</a></li>
+					<li><a href="/data-services">Data Services</a></li>
+					<li><a href="/mobile-price-list" title="Used Mobile Price Lists">Price Lists</a></li>
+					<li><a href="/broken" title="Broken Phone Solutions">Broken, <a href="/repair" title="Repair Network">Repair</a></a>
+					<li><a href="/protection-plans" title="Used phone protection plans">Protection Plans</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2">
+				<!-- About -->
+				<ul>
+					<li><a href="/about">About Swappa</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/contact">Contact us</a></li>
+					<li><a href="/press">Press</a>, <a href="/reviews">Reviews</a></li>
+					<li><a href="/policies">Policies</a>, <a href="/fees">Fees</a></li>
+					<li><a href="/terms">Terms of Use</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-4">
+				<a href="/">
+					<img id="footer_logo" src="https://static.swappa.com/static/images/logos/swappa_footer.svg" alt="Swappa" style="margin-left: -11px; max-width: 200px;" />
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="social_links">
+					<a href="https://www.facebook.com/pages/Swappa/160481130660410" class="social"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/swappa" class="social"><i class="fa fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/swappa/" class="social"><i class="fa fa-instagram"></i></a>
+					<a href="https://plus.google.com/+Swappa" class="social"><i class="fa fa-google-plus-square"></i></a>
+					<a href="https://www.youtube.com/channel/UCMWoALjKAnY_eS65aPStyjQ" class="social"><i class="fa fa-youtube-square"></i></a>
+					<a href="https://in.pinterest.com/Swappa/" class="social"><i class="fa fa-pinterest-square"></i></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="copyright">
+					Copyright © 2010 - 2018 Swappa, LLC
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+	<li class="sortable-consent" style="display:none">
+    	<a href="javascript:window.deployads.showConsentTool()">Manage Consent</a>
+	</li>
+
+
+
+
+</body>
+</html>
